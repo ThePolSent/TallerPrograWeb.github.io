@@ -835,6 +835,7 @@ footer.dark-mode{
 @media (max-width: 768px) {
     .carrusel-track {
         gap: 10px;
+        
     }
 
     .videojuego {

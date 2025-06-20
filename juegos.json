@@ -1,0 +1,1152 @@
+{
+    "accion":[
+        {
+            "id": "codbo2" ,
+            "titulo": "Call of Duty: Black Ops II" ,
+            "año": "2012" ,
+            "imagen":"https://i.pinimg.com/736x/d1/8f/62/d18f62a446033026053339394944c1fb.jpg" ,
+            "descripcion": "Call of Duty: Black Ops II sigue dos líneas temporales: la Guerra Fría en los años 80, con Alex Mason enfrentándose a un enemigo soviético,  y el futuro distópico de 2025, donde su hijo, David Mason, lucha contra el terrorista Raul Menendez, quien busca desestabilizar el mundo mediante ciberataques.  Las decisiones del jugador afectan el curso de la historia, lo que lleva a diferentes finales y desenlaces en una narrativa de guerra y tecnología.",
+            "detalle":"detallejuegos/detalle-accion/detalle-codblackopsII/detalle-codblackopsII.html",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "cs2" ,
+            "titulo": "Counster-Strike 2" ,
+            "año": "" ,
+            "imagen":"https://i.pinimg.com/736x/a5/c5/29/a5c529a21b85c978bd4e1874762d29d3.jpg" ,
+            "descripcion": "Counter-Strike 2 es un juego de disparos en primera persona basado en equipos, donde los jugadores se dividen en dos bandos: los terroristas, que intentan plantar una bomba o tomar rehenes, y los antiterroristas, que deben evitarlo. El juego se centra en la estrategia, la cooperación en equipo y la habilidad individual, ofreciendo partidas rápidas y competitivas. Counter-Strike 2 es la secuela de Counter-Strike, mejorando la jugabilidad, los gráficos y añadiendo nuevas características mientras conserva la esencia del juego original.",
+            "detalle":"detallejuegos/detalle-accion/detalle-cs2/detalle-cs2.html",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "gowragnarok" ,
+            "titulo": "God of War Ragnarok" ,
+            "año": "2018" ,
+            "imagen":"https://i.pinimg.com/736x/c4/34/72/c4347248cba1e95286e35bc442111c50.jpg" ,
+            "descripcion": "God of War (2018) sigue a Kratos, un guerrero espartano que ahora vive en los reinos nórdicos junto a su hijo Atreus. Tras la muerte de su esposa, emprenden un viaje para esparcir sus cenizas en la montaña más alta, enfrentándose a dioses, monstruos y su propio pasado. La historia mezcla acción, mitología nórdica y una profunda relación padre-hijo en un mundo lleno de desafíos y secretos. ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "doometernal" ,
+            "titulo": "Doom Eternal" ,
+            "año": "2020" ,
+            "imagen":"https://i.pinimg.com/736x/49/6d/8f/496d8f4a6009aca8bc03131098f3d533.jpg" ,
+            "descripcion": "Doom Eternal continúa la lucha del Doom Slayer contra las fuerzas del Infierno que han invadido la Tierra, desatando el caos y la destrucción en todo el planeta. A lo largo de la historia, el Slayer viaja por diferentes mundos para detener la invasión demoníaca, enfrentándose a hordas de enemigos con un arsenal brutal y un ritmo frenético. A medida que avanza, descubre secretos sobre su origen y su conexión con los demonios. La narrativa combina acción intensa con mitología oscura, en una batalla épica por la supervivencia de la humanidad y el destino del universo. ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "devilmaycry5" ,
+            "titulo": "Devil May Cry 5" ,
+            "año": "" ,
+            "imagen":"https://i.pinimg.com/736x/76/f6/b0/76f6b0e9659ab189f5dd994e4ef471e5.jpg" ,
+            "descripcion": "Devil May Cry 5 sigue a tres cazadores de demonios: Nero, Dante y V, que luchan contra una invasión demoníaca provocada por el crecimiento de un misterioso árbol infernal en Red Grave City. Cada personaje aporta un estilo de combate único mientras enfrentan hordas de enemigos y desvelan secretos del pasado. Nero busca respuestas sobre su brazo demoníaco perdido, Dante enfrenta su destino como hijo de Sparda, y V oculta un vínculo profundo con el enemigo. La historia mezcla acción intensa, humor y drama sobrenatural, en una batalla por salvar el mundo del caos.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "residentevil4remake" ,
+            "titulo": "Resident Evil 4 Remake" ,
+            "año": "" ,
+            "imagen":"https://i.pinimg.com/736x/f1/b8/65/f1b865229294c81a2827f807012052f8.jpg" ,
+            "descripcion": "Resident Evil 4 sigue a Leon S. Kennedy, un agente especial enviado a un remoto pueblo europeo para rescatar a Ashley Graham, la hija del presidente de EE.UU. Allí descubre que los habitantes han sido infectados por un parásito conocido como Las Plagas, controlado por un culto siniestro. Leon deberá enfrentarse a enemigos mutados, resolver acertijos y sobrevivir a múltiples amenazas mientras intenta cumplir su misión. La historia combina acción intensa, terror y tensión constante, redefiniendo el género con un enfoque más dinámico y cinematográfico.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "Uncharted4" ,
+            "titulo": "Uncharted 4" ,
+            "año": "" ,
+            "imagen":"https://i.pinimg.com/736x/ed/c0/7f/edc07f0993fbf3c50cec24147ec10ec8.jpg" ,
+            "descripcion": "Uncharted 4: A Thief's End narra la última aventura de Nathan Drake, quien ha dejado atrás la vida de cazador de tesoros. Cuando su hermano Sam, dado por muerto, reaparece en busca de ayuda, Nathan se ve arrastrado nuevamente al mundo de la exploración y el peligro. Juntos, emprenden la búsqueda del tesoro perdido del capitán Henry Avery, enfrentándose a piratas, rivales y desafíos personales. La historia combina acción, drama y exploración en escenarios impresionantes, mientras se profundiza en los lazos familiares y el costo de la obsesión.",
+            "detalle":""
+        },
+        {
+            "id": "CallOfDutyMW2" ,
+            "titulo": "Call of Duty: Modern Warfare 2" ,
+            "año": "2022" ,
+            "imagen":"https://i.pinimg.com/736x/aa/11/18/aa11186dc69287ff7192992845d8585b.jpg" ,
+            "descripcion": "Call of Duty: Modern Warfare 2 sigue a un grupo de élite de la Fuerza de Operaciones Especiales liderada por el capitán Soap MacTavish, en una misión para detener a un líder terrorista ruso, Makarov, que amenaza con desestabilizar el orden mundial. La historia aborda la lucha global contra el terrorismo, con intensas batallas en diversas ubicaciones del mundo. Mientras tanto, el equipo se enfrenta a traiciones, alianzas rotas y una serie de eventos que ponen a prueba su lealtad y moralidad en un conflicto cada vez más personal.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "SekiroShadowsDieTwice" ,
+            "titulo": "Sekiro: Shadows Die Twice" ,
+            "año": "2019" ,
+            "imagen":"https://i.pinimg.com/736x/0f/36/f8/0f36f8e8301782de08d1d6f93d4f91c9.jpg" ,
+            "descripcion": "Sekiro: Shadows Die Twice sigue la historia de un samurái llamado Wolf, que busca vengar la muerte de su señor y recuperar a un joven noble que ha sido secuestrado. Ambientado en un Japón feudal, el juego mezcla acción y sigilo en un entorno lleno de desafíos. A medida que avanza, Wolf se enfrenta a enemigos letales y seres mitológicos, utilizando una mecánica de combate de alto riesgo y alta recompensa. Con una narrativa profunda sobre el honor, la venganza y la redención, el jugador debe tomar decisiones difíciles mientras explora un mundo brutal y fascinante.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "MetalGearRisingRevengeance" ,
+            "titulo": "Metal Gear Rising: Revengeance" ,
+            "año": "" ,
+            "imagen":"https://i.pinimg.com/736x/fe/5f/16/fe5f168cf2487f48374a620adedbe082.jpg" ,
+            "descripcion": "Metal Gear Rising: Revengeance se centra en Raiden, un cyborg samurái que trabaja como mercenario para una organización privada de seguridad. Después de un violento ataque a su equipo, Raiden se ve envuelto en una conspiración global que involucra a poderosas corporaciones, terroristas y secretos del pasado. A lo largo del juego, Raiden lucha con una espada de alta frecuencia, enfrentándose a enemigos mecánicos y humanos en combates rápidos y desafiantes. La narrativa explora temas como la venganza, la moralidad y la naturaleza de la guerra, mientras Raiden busca la justicia y la redención en un mundo lleno de corrupción y caos.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        }
+    ],
+    "aventura":[
+        {
+            "id": "tlous" ,
+            "titulo": "The Last of Us" ,
+            "año": "2013" ,
+            "imagen":"https://i.pinimg.com/736x/4c/00/c8/4c00c8895cac1c65ceb3b2ae3f1e3f7e.jpg" ,
+            "descripcion": "The Last of Us sigue a Joel, un hombre endurecido por la pérdida, y Ellie, una adolescente inmune a un hongo mortal que ha devastado a la humanidad. Juntos cruzan un Estados Unidos postapocalíptico en busca de una posible cura, enfrentando peligros tanto humanos como infectados. La historia combina acción, supervivencia y una fuerte carga emocional, explorando el vínculo entre los protagonistas en un mundo brutal y desesperado.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "tlou2" ,
+            "titulo": "The Last of Us Part II" ,
+            "año": "2020" ,
+            "imagen":"https://i.pinimg.com/736x/91/b8/a4/91b8a4d87176bce81989f7fbed39d6ee.jpg" ,
+            "descripcion": "The Last of Us Part II sigue a Ellie varios años después de los eventos del primer juego, en un mundo aún devastado por la infección. Impulsada por la ira y el deseo de venganza tras una tragedia personal, Ellie emprende un viaje oscuro y emocional que la enfrenta a las consecuencias de sus actos. La historia explora temas como el odio, la pérdida y la redención, en una narrativa intensa y cargada de tensión.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "hollowknight" ,
+            "titulo": "Hollow Knight" ,
+            "año": "" ,
+            "imagen":"https://i.pinimg.com/736x/52/fd/b8/52fdb8076d506ae4ab3d0438df0b3bd0.jpg" ,
+            "descripcion": "Hollow Knight es un juego de aventuras y exploración en 2D que sigue a un misterioso guerrero sin nombre que viaja al reino subterráneo de Hallownest. Allí, debe enfrentarse a criaturas corrompidas, descubrir secretos ocultos y desentrañar una antigua tragedia que amenaza con destruirlo todo. Con una atmósfera oscura, combates desafiantes y un mundo interconectado, el juego ofrece una experiencia profunda y emotiva.",
+            "detalle":"detallejuegos/detalle-aventura/detalle-hollowknight/detalle-hollowknight.html",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "redeadredeptionII" ,
+            "titulo": "Red Dead Redemption II" ,
+            "año": "2018" ,
+            "imagen":"https://i.pinimg.com/736x/d2/a4/5c/d2a45cc2083abc8bf1c21e47e0b29c3a.jpg" ,
+            "descripcion": "Red Dead Redemption II sigue la historia de Arthur Morgan, un forajido veterano y miembro de la banda de Dutch van der Linde, mientras lucha por sobrevivir en el ocaso del Viejo Oeste. Ambientado en 1899, el juego muestra la decadencia del estilo de vida criminal, el conflicto entre la lealtad a la banda y los ideales personales de Arthur. A medida que las tensiones aumentan y las autoridades se acercan, Arthur debe tomar decisiones que definirán su destino. La narrativa mezcla acción, drama y exploración en un mundo abierto vibrante, con temas de redención, honor y el peso del pasado.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "assasinscreedvalhalla" ,
+            "titulo": "Assasin's Creed Valhalla" ,
+            "año": "" ,
+            "imagen":"https://i.pinimg.com/736x/88/03/e2/8803e2090ffd416e3e19abc1fcab7eda.jpg" ,
+            "descripcion": "Assassin’s Creed Valhalla sigue a Eivor, un guerrero vikingo que lidera a su clan desde Noruega hacia Inglaterra durante el siglo IX, en busca de un nuevo hogar. A medida que establecen asentamientos, Eivor se enfrenta a reinos sajones, traiciones y una guerra secreta entre los Ocultos y los Templarios. La historia combina batallas brutales, alianzas políticas y exploración, mientras Eivor busca forjar su destino en un mundo lleno de mitología nórdica y conflictos de poder. Las decisiones del jugador influyen en el desarrollo de la narrativa y el destino de su pueblo.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "lifeisstrange" ,
+            "titulo": "Life is Strange" ,
+            "año": "2015" ,
+            "imagen":"https://i.pinimg.com/736x/87/c8/8e/87c88e812d0c741ae5440d223beb7e75.jpg" ,
+            "descripcion": "The Last of Us sigue a Joel, un hombre endurecido por la pérdida, y Ellie, una adolescente inmune a un hongo mortal que ha devastado a la humanidad. Juntos cruzan un Estados Unidos postapocalíptico en busca de una posible cura, enfrentando peligros tanto humanos como infectados. La historia combina acción, supervivencia y una fuerte carga emocional, explorando el vínculo entre los protagonistas en un mundo brutal y desesperado.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "firewatch" ,
+            "titulo": "Firewatch" ,
+            "año": "2016" ,
+            "imagen":"https://i.pinimg.com/736x/ad/9b/26/ad9b26c4bb1e604755c19f16d42f1861.jpg" ,
+            "descripcion": "Firewatch narra la historia de Henry, un hombre que acepta un trabajo como guardabosques en la soledad del Bosque Nacional de Shoshone, Wyoming, en 1989. Su única conexión es su supervisora Delilah, con quien se comunica por radio. A medida que explora el entorno y atiende tareas rutinarias, Henry descubre sucesos extraños que lo llevan a una trama de misterio, secretos y aislamiento. La historia gira en torno a la pérdida, la confianza y las decisiones personales, mientras el jugador construye la relación entre ambos personajes en un entorno visualmente inmersivo.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "tombraider" ,
+            "titulo": "Tomb Raider" ,
+            "año": "2013" ,
+            "imagen":"https://i.pinimg.com/736x/92/c8/70/92c8704089d45b7b53663c6b3b2ddcbf.jpg" ,
+            "descripcion": "Tomb Raider sigue a una joven Lara Croft en su primera gran aventura, tras naufragar en una isla misteriosa del Triángulo del Dragón. Rodeada de peligros, Lara debe evolucionar de una arqueóloga inexperta a una superviviente decidida. Mientras busca a su tripulación y lucha contra una secta violenta, descubre secretos antiguos que revelan un poder oculto en la isla. Con desafíos físicos, acertijos y combates intensos, la historia explora el origen de la heroína y su transformación emocional en medio de la adversidad.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "oriandblighteforest" ,
+            "titulo": "Ori and the Blind Forest" ,
+            "año": "2015" ,
+            "imagen":"https://i.pinimg.com/736x/19/fb/81/19fb8170ff721c7cd900ffa541ed755a.jpg" ,
+            "descripcion": "Tori and the Blind Forest cuenta la emotiva historia de Ori, un pequeño espíritu guardián, y Sein, la luz y voz del Árbol del Espíritu. Tras una catástrofe que arrasa el bosque de Nibel, Ori emprende un viaje para restaurar el equilibrio y salvar su hogar. A medida que avanza, enfrenta criaturas peligrosas, resuelve acertijos ambientales y descubre secretos sobre su pasado y el ciclo de la vida. Con una narrativa conmovedora, una estética pintada a mano y una banda sonora emocional, el juego combina plataformas desafiantes con una historia de esperanza, pérdida y redención.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "aplaguetalerequiem" ,
+            "titulo": "A Plague Tale: Requiem" ,
+            "año": "2022" ,
+            "imagen":"https://i.pinimg.com/736x/23/b9/42/23b94242e09a2e1c95741477aa9a54ad.jpg" ,
+            "descripcion": "A Plague Tale: Requiem continúa la historia de Amicia y su hermano Hugo, quienes huyen al sur de Francia en busca de una vida tranquila lejos de la plaga y la Inquisición. Sin embargo, los poderes de Hugo siguen creciendo y una nueva amenaza relacionada con la Macula emerge, trayendo consigo una devastadora plaga de ratas. En su lucha por sobrevivir, los hermanos enfrentan desafíos brutales, dilemas morales y enemigos implacables. Con una narrativa emocional, entornos impresionantes y una evolución en la jugabilidad sigilosa y estratégica, el juego profundiza en el vínculo fraternal en un mundo oscuro y despiadado.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        }
+    ],
+    "simulacion":[
+        {
+            "id": "stardewvalley" ,
+            "titulo": "Stardew Valley" ,
+            "año": "2016" ,
+            "imagen":"https://i.pinimg.com/736x/93/57/62/935762480e67e4b749994a315b4f7e8f.jpg" ,
+            "descripcion": "Stardew Valley es un juego de simulación en el que el jugador hereda una granja en ruinas y debe restaurarla a su antigua gloria. A lo largo del juego, los jugadores cultivan, crían animales, exploran minas y forjan relaciones con los habitantes del pueblo. La historia se centra en la vida en la granja, pero también incluye elementos de aventura y misterio. Con un enfoque relajante y de ritmo lento, Stardew Valley ofrece un mundo abierto lleno de actividades y posibilidades.",
+            "detalle":"detallejuegos/detalle-simulacion/detalle-stardewvalley/detalle-stardewvalley.html",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "minecraft" ,
+            "titulo": "Minecraft" ,
+            "año": "2011" ,
+            "imagen":"https://i.pinimg.com/736x/c8/cc/44/c8cc44624d8cf36ecf08f5fcafad57b4.jpg" ,
+            "descripcion": "Minecraft es un juego de mundo abierto donde los jugadores pueden explorar, construir, recolectar recursos y sobrevivir en un entorno generado aleatoriamente. Sin una historia lineal, ofrece libertad total para crear estructuras, combatir criaturas y descubrir biomas. Su estilo visual en bloques y su jugabilidad creativa lo convierten en una experiencia única para jugadores de todas las edades.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "skylines" ,
+            "titulo": "Skilines" ,
+            "año": "2015" ,
+            "imagen":"https://i.pinimg.com/736x/49/77/7d/49777dde93ea8caf5702d91550ed5521.jpg" ,
+            "descripcion": "Cities: Skylines es un juego de simulación de construcción de ciudades que pone al jugador en el rol de alcalde y urbanista. El objetivo es desarrollar una metrópolis funcional desde cero, gestionando aspectos como el tráfico, servicios públicos, zonas residenciales, comerciales e industriales. El juego destaca por su nivel de realismo, incluyendo sistemas de impuestos, planificación urbana, medio ambiente y bienestar ciudadano. Con herramientas detalladas y una comunidad activa que ofrece mods y contenido adicional, Cities: Skylines ofrece una experiencia profunda y personalizable para los amantes de la gestión y la estrategia urbana.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "thesims4" ,
+            "titulo": "The Sims 4" ,
+            "año": "2014" ,
+            "imagen":"https://i.pinimg.com/736x/87/0e/1f/870e1f0427082552668f4a5224fc42ac.jpg" ,
+            "descripcion": "The Sims 4 es un juego de simulación de vida que permite a los jugadores crear y controlar personajes en un mundo virtual donde pueden desarrollar relaciones, construir casas y vivir distintas historias. Con un sistema de emociones más profundo y herramientas creativas mejoradas, los Sims reaccionan de forma más realista a su entorno y decisiones. Los jugadores pueden personalizar a fondo la apariencia, personalidad y aspiraciones de sus Sims, así como diseñar hogares únicos. La experiencia se expande con múltiples paquetes y contenido adicional que agregan nuevas actividades, profesiones y mundos por descubrir.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "planetzoo" ,
+            "titulo": "Planet Zoo" ,
+            "año": "2019" ,
+            "imagen":"https://i.pinimg.com/736x/b9/37/9d/b9379d741930976c70cf15fefb9ddac0.jpg" ,
+            "descripcion": "Planet Zoo es un simulador de gestión de zoológicos donde el jugador construye y administra un parque lleno de vida salvaje. Con un enfoque en el bienestar animal, el juego permite diseñar hábitats detallados, cuidar las necesidades físicas y emocionales de cada especie, y supervisar el comportamiento social y ecológico. Además de la gestión financiera, los jugadores deben abordar temas como la conservación, la educación ambiental y la sostenibilidad. Con gráficos realistas y un profundo nivel de personalización, Planet Zoo ofrece una experiencia inmersiva para los amantes de la naturaleza y la simulación estratégica.",
+            "detalle":""
+        },
+        {
+            "id": "planetcoaster2" ,
+            "titulo": "Planet Coaster 2" ,
+            "año": "2023" ,
+            "imagen":"https://i.pinimg.com/736x/8b/eb/d6/8bebd6a1007cab6d33e7ec5c2acfbccb.jpg" ,
+            "descripcion": "Planet Coaster 2 lleva la construcción y gestión de parques de atracciones al siguiente nivel, permitiendo a los jugadores diseñar desde montañas rusas extremas hasta complejos parques temáticos. Con herramientas más intuitivas y detalladas, puedes personalizar cada aspecto del parque, desde la decoración hasta las rutas de los visitantes. La simulación se enfoca en la experiencia del cliente, la rentabilidad del negocio y la creatividad ilimitada. Además, incluye nuevas opciones climáticas, integración multijugador y desafíos dinámicos que hacen evolucionar constantemente tu parque. Es ideal para quienes disfrutan crear y gestionar con precisión.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "farmingSimulator22" ,
+            "titulo": "Farming Simulator 22" ,
+            "año": "2021" ,
+            "imagen":"https://i.pinimg.com/736x/59/ae/9c/59ae9ccff1ff1880843de001400f62ac.jpg" ,
+            "descripcion": "Farming Simulator 22 te ofrece la oportunidad de gestionar tu propia granja en un mundo abierto, donde podrás sembrar, cosechar, criar animales y operar una variedad de maquinaria agrícola realista. El juego incluye un sistema de estaciones dinámicas, permitiendo a los jugadores experimentar las estaciones del año, lo que influye en la cosecha y los animales. Además, puedes expandir tu granja y trabajar en proyectos agrícolas más complejos, como la producción de vino o la silvicultura. Con una amplia gama de vehículos y herramientas de marcas auténticas, Farming Simulator 22 ofrece una experiencia realista y detallada para quienes buscan sumergirse en el mundo rural.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "powerwashersimulator" ,
+            "titulo": "PowerWash Simulator" ,
+            "año": "2021" ,
+            "imagen":"https://i.pinimg.com/736x/8a/63/32/8a633257479afe64d7eb8adbd0572313.jpg" ,
+            "descripcion": "PowerWash Simulator es un juego relajante en el que te conviertes en un experto en limpieza de alta presión. Con una potente hidrolavadora, debes limpiar todo tipo de superficies, desde patios y vehículos hasta edificios completos y monumentos. El juego ofrece una experiencia de satisfacción visual al eliminar suciedad y manchas acumuladas, mientras desbloqueas nuevas herramientas y equipos para hacerlo más eficiente. A medida que avanzas, puedes enfrentarte a desafíos más grandes y complejos, todo mientras disfrutas de una atmósfera tranquila y sin estrés, ideal para quienes buscan una experiencia de juego relajante y gratificante.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "powerwashersimulator" ,
+            "titulo": "Euro Truck Simulator 2" ,
+            "año": "" ,
+            "imagen":"https://i.pinimg.com/736x/e3/41/31/e341317e548b9e80cef3bc165597c47c.jpg" ,
+            "descripcion": "Euro Truck Simulator 2 es un simulador de conducción en el que los jugadores asumen el rol de un conductor de camión que recorre Europa realizando entregas de mercancías. Desde transportar carga pesada hasta productos delicados, los jugadores deben gestionar tanto su vehículo como su negocio, mejorando su flota, contratando empleados y expandiendo su imperio. El juego destaca por su realismo en los detalles de la conducción, el entorno y la economía, permitiendo a los jugadores explorar ciudades y carreteras europeas mientras disfrutan de una experiencia de simulación profunda. Además, Euro Truck Simulator 2 ofrece una amplia variedad de camiones personalizables y una comunidad activa de mods que enriquece la experiencia.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "houseflipper" ,
+            "titulo": "House Flipper" ,
+            "año": "" ,
+            "imagen":"https://i.pinimg.com/736x/41/d3/75/41d375a92b1df8101196909f60d7ab3b.jpg" ,
+            "descripcion": "House Flipper es un juego de simulación en el que los jugadores asumen el rol de un renovador de viviendas. El objetivo es comprar propiedades en mal estado, renovarlas y luego venderlas para obtener ganancias. Los jugadores pueden realizar una variedad de tareas, desde pintar y limpiar hasta realizar reparaciones más complejas, como cambiar pisos o reparar sistemas eléctricos y de fontanería. Con una mecánica centrada en la personalización y la decoración, los jugadores tienen la libertad de rediseñar las casas a su gusto, transformándolas en espacios modernos y atractivos para los futuros compradores. A medida que avanzan, pueden mejorar sus habilidades, desbloquear nuevas herramientas y enfrentar proyectos de renovación más ambiciosos.",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        }
+    ],
+    "estrategia":[
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "estrategia"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "estrategia"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "" ,
+            "titulo": "" ,
+            "año": "" ,
+            "imagen":"" ,
+            "descripcion": " ",
+            "detalle":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        }
+    ]
+}

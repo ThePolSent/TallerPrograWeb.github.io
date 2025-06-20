@@ -1,292 +1,310 @@
 // ============================
-//         MODO USUARIO
+//     INICIALIZACIÓN GENERAL
 // ============================
-document.addEventListener('DOMContentLoaded', () => {
-    const user = localStorage.getItem('usuario');
-    const loginIcon = document.getElementById('login-icon');
-    const userMenu = document.getElementById('userMenu');
-    const userButton = document.getElementById('userButton');
-    const logoutBtn = document.getElementById('logoutButton');
-    const usernameDisplay = document.getElementById('usernameDisplay');
+document.addEventListener("DOMContentLoaded", () => {
+  // ============================
+  //         MODO USUARIO
+  // ============================
+    const user = localStorage.getItem("usuario");
+    const loginIcon = document.getElementById("login-icon");
+    const userMenu = document.getElementById("userMenu");
+    const userButton = document.getElementById("userButton");
+    const logoutBtn = document.getElementById("logoutButton");
+    const usernameDisplay = document.getElementById("usernameDisplay");
 
-    // Si el usuario está logueado
     if (user) {
-        if (loginIcon) loginIcon.style.display = 'none'; // Ocultar ícono de login
+        if (loginIcon) loginIcon.style.display = "none";
         if (userMenu) {
-            userMenu.style.display = 'block'; // Mostrar menú de usuario
-            usernameDisplay.textContent = user; // Mostrar nombre de usuario
+        userMenu.style.display = "block";
+        usernameDisplay.textContent = user;
         }
     } else {
-        // Si no hay usuario, mostrar el icono de login
-        if (loginIcon) loginIcon.style.display = 'block'; // Mostrar icono de login
-        if (userMenu) userMenu.style.display = 'none'; // No mostrar el menú de usuario
+        if (loginIcon) loginIcon.style.display = "block";
+        if (userMenu) userMenu.style.display = "none";
     }
 
-    // Función para mostrar/ocultar el menú de usuario al hacer clic en el ícono
     if (userButton) {
-        userButton.addEventListener('click', () => {
-            userMenu.querySelector('.submenu').classList.toggle('open');
+        userButton.addEventListener("click", () => {
+        userMenu.querySelector(".submenu").classList.toggle("open");
         });
     }
 
-    // Función para cerrar sesión
     if (logoutBtn) {
-        logoutBtn.addEventListener('click', () => {
-            localStorage.removeItem('usuario');
-            window.location.reload(); // Recargar la página para reflejar el estado de no logueado
+        logoutBtn.addEventListener("click", () => {
+        localStorage.removeItem("usuario");
+        window.location.reload();
         });
     }
 
-    // Redirigir al inicio de sesión si el usuario hace clic en el icono de login
     if (loginIcon) {
-        loginIcon.addEventListener('click', () => {
-            localStorage.setItem('lastVisitedURL', window.location.href); // Guardar la última URL visitada
-            window.location.href = '../../login/principaliniciosesion/iniciarsesion.html'; // Redirigir a la página de login
+        loginIcon.addEventListener("click", () => {
+        localStorage.setItem("lastVisitedURL", window.location.href);
+        window.location.href = "../../login/principaliniciosesion/iniciarsesion.html";
         });
     }
 
-});
-
-
-
-// ============================
-//         TEMA OSCURO
-// ============================
-    const themeBtn = document.getElementById('theme-toggle');
-    const themeIcon = document.getElementById('theme-icon');
+    // ============================
+    //         TEMA OSCURO
+    // ============================
+    const themeBtn = document.getElementById("theme-toggle");
+    const themeIcon = document.getElementById("theme-icon");
     const body = document.body;
+    const temaGuardado = localStorage.getItem("tema");
 
-    const temaGuardado = localStorage.getItem('tema');
-    if (temaGuardado === 'oscuro') {
-        body.classList.add('dark-mode');
-        themeIcon.setAttribute('name', 'sunny-outline');
+    if (temaGuardado === "oscuro") {
+        body.classList.add("dark-mode");
+        themeIcon.setAttribute("name", "sunny-outline");
     } else {
-        themeIcon.setAttribute('name', 'moon-outline');
+        themeIcon.setAttribute("name", "moon-outline");
     }
 
-    themeBtn.addEventListener('click', () => {
-        const esOscuro = body.classList.toggle('dark-mode');
-        localStorage.setItem('tema', esOscuro ? 'oscuro' : 'claro');
-        themeIcon.setAttribute('name', esOscuro ? 'sunny-outline' : 'moon-outline');
-    });
+    if (themeBtn) {
+        themeBtn.addEventListener("click", () => {
+        const esOscuro = body.classList.toggle("dark-mode");
+        localStorage.setItem("tema", esOscuro ? "oscuro" : "claro");
+        themeIcon.setAttribute("name", esOscuro ? "sunny-outline" : "moon-outline");
+        });
+    }
 
-
-// ============================
-//        BOTÓN DE AUDIO
-// ============================
-document.addEventListener('DOMContentLoaded', () => {
-    const audioBtn = document.getElementById('audio-toggle');
-    const audioIcon = document.getElementById('audio-icon');
-    const audioPlayer = document.getElementById('audio-player');
+    // ============================
+    //        BOTÓN DE AUDIO
+    // ============================
+    const audioBtn = document.getElementById("audio-toggle");
+    const audioIcon = document.getElementById("audio-icon");
+    const audioPlayer = document.getElementById("audio-player");
     let isPlaying = false;
 
-    audioBtn.addEventListener('click', () => {
+    if (audioBtn && audioPlayer && audioIcon) {
+        audioBtn.addEventListener("click", () => {
         if (isPlaying) {
             audioPlayer.pause();
-            audioIcon.setAttribute('name', 'volume-mute-outline');
         } else {
             audioPlayer.play();
-            audioIcon.setAttribute('name', 'volume-high-outline');
         }
-        isPlaying = !isPlaying;
-    });
+        });
 
-    // Asegurarse de que el ícono vuelva a mute si se pausa de otra forma
-    audioPlayer.addEventListener('pause', () => {
-        audioIcon.setAttribute('name', 'volume-mute-outline');
+        audioPlayer.addEventListener("pause", () => {
+        audioIcon.setAttribute("name", "volume-mute-outline");
         isPlaying = false;
-    });
+        });
 
-    audioPlayer.addEventListener('play', () => {
-        audioIcon.setAttribute('name', 'volume-high-outline');
+        audioPlayer.addEventListener("play", () => {
+        audioIcon.setAttribute("name", "volume-high-outline");
         isPlaying = true;
-    });
-});
+        });
+    }
 
+    // ============================
+    //        MENÚ DESPLEGABLE
+    // ============================
+    function toggleSubmenu(event) {
+        event.preventDefault();
+        event.stopPropagation();
 
-// ============================
-//        MENÚ DESPLEGABLE
-// ============================
+        const parentLi = event.currentTarget.parentElement;
 
-function toggleSubmenu(event) {
-    event.preventDefault();
-    event.stopPropagation();
-
-    const parentLi = event.currentTarget.parentElement;
-
-    document.querySelectorAll('.has-submenu').forEach(item => {
+        document.querySelectorAll(".has-submenu").forEach((item) => {
         if (item !== parentLi) {
-            item.classList.remove('open');
+            item.classList.remove("open");
+        }
+        });
+
+        parentLi.classList.toggle("open");
+    }
+
+    document.querySelectorAll(".has-submenu > a").forEach((link) => {
+        link.addEventListener("click", toggleSubmenu);
+    });
+
+    document.addEventListener("click", function (event) {
+        const isSubmenu = event.target.closest(".has-submenu");
+        const isLoginForm = event.target.closest("#login-form");
+        const isLoginButton = event.target.closest("#login-btn");
+
+        if (!isSubmenu && !isLoginForm && !isLoginButton) {
+        document.querySelectorAll(".has-submenu").forEach((item) => item.classList.remove("open"));
+        const loginForm = document.getElementById("login-form");
+        if (loginForm) loginForm.style.display = "none";
         }
     });
 
-    parentLi.classList.toggle('open');
-}
+    // ============================
+    //        MENÚ HAMBURGUESA
+    // ============================
+    const menuHamburguesa = document.querySelector(".menu-hamburguesa");
 
-document.querySelectorAll('.has-submenu > a').forEach(link => {
-    link.addEventListener('click', toggleSubmenu);
-});
-
-document.addEventListener('click', function (event) {
-    const isSubmenu = event.target.closest('.has-submenu');
-    const isLoginForm = event.target.closest('#login-form');
-    const isLoginButton = event.target.closest('#login-btn');
-
-    if (!isSubmenu && !isLoginForm && !isLoginButton) {
-        document.querySelectorAll('.has-submenu').forEach(item => item.classList.remove('open'));
-        document.getElementById('login-form').style.display = 'none';
+    if (menuHamburguesa) {
+        menuHamburguesa.addEventListener("click", () => {
+        const nav = document.querySelector("nav");
+        if (nav) nav.classList.toggle("open");
+        });
     }
-});
 
-// ============================
-//        MENÚ HAMBURGUESA
-// ============================
-
-// ============================
-//        MENÚ HAMBURGUESA
-// ============================
-const menuHamburguesa = document.querySelector('.menu-hamburguesa');
-
-if (menuHamburguesa) {
-    menuHamburguesa.addEventListener('click', () => {
-        const nav = document.querySelector('nav');
-        nav.classList.toggle('open');
-    });
-}
-
-document.querySelectorAll("nav ul li").forEach(item => {
-    item.addEventListener("click", () => {
+    document.querySelectorAll("nav ul li").forEach((item) => {
+        item.addEventListener("click", () => {
         const submenu = item.querySelector(".submenu");
-        if (submenu) {
-            submenu.classList.toggle("open");
-        }
+        if (submenu) submenu.classList.toggle("open");
+        });
     });
-});
 
+    // ============================
+    //        MODAL DE JUEGO
+    // ============================
+    function abrirModal(imageData) {
+        const modal = document.getElementById("modal");
+        const modalImage = document.getElementById("modal-image");
+        const modalButton = document.getElementById("modal-button");
+        const modalDescription = document.getElementById("modal-description");
+        const modalTitle = document.getElementById("modal-title");
 
-// ============================
-//        MODAL DE JUEGO
-// ============================
+        modal.classList.add("show");
+        document.body.classList.add("modal-open");
 
-const gameCards = document.querySelectorAll(".game-card");
-
-function abrirModal(imageData) {
-    const modal = document.getElementById("modal");
-    const modalImage = document.getElementById("modal-image");
-    const modalButton = document.getElementById("modal-button");
-    const modalDescription = document.getElementById("modal-description");
-    const modalTitle = document.getElementById("modal-title");
-
-    modal.classList.add('show');
-    document.body.classList.add('modal-open');
-
-    modalImage.src = imageData.src;
-    modalDescription.textContent = imageData.dataset.description;
-    modalButton.href = imageData.dataset.detailsLink;
-    modalTitle.textContent = imageData.dataset.title;
-}
-
-function cerrarModal() {
-    const modal = document.getElementById("modal");
-    modal.classList.remove('show');
-    document.body.classList.remove('modal-open');
-}
-
-// Agregar el evento de click para abrir el modal en las tarjetas de juego
-gameCards.forEach(card => {
-    card.addEventListener('click', () => {
-        const image = card.querySelector(".image-popular, .image-carrusel");
-        if (image) abrirModal(image);
-    });
-});
-
-// Evento para cerrar el modal al hacer clic en el botón de cierre (X)
-document.querySelectorAll(".close-btn").forEach(btn => {
-    btn.addEventListener('click', cerrarModal);
-});
-
-// Evento para cerrar el modal al hacer clic fuera del modal
-window.addEventListener('click', (event) => {
-    const modal = document.getElementById("modal");
-    if (event.target === modal) cerrarModal();
-});
-
-// Evento para cerrar el modal al presionar la tecla Escape
-document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") cerrarModal();
-});
-
-// ============================
-//     CARRUSEL DE JUEGOS
-// ============================
-
-document.querySelectorAll('.carrusel-wrapper').forEach(wrapper => {
-    const track = wrapper.querySelector('.carrusel-track');
-    const btnIzq = wrapper.querySelector('.btn-izq');
-    const btnDer = wrapper.querySelector('.btn-der');
-    const items = wrapper.querySelectorAll('.videojuego');
-
-    const visibleItems = 4;
-    const itemWidth = items[0].getBoundingClientRect().width + 20;
-    let scrollIndex = 0;
-    const maxScrollIndex = Math.max(0, items.length - visibleItems);
-
-    function updateButtons() {
-        btnIzq.style.display = scrollIndex <= 0 ? 'none' : 'block';
-        btnDer.style.display = scrollIndex >= maxScrollIndex ? 'none' : 'block';
+        modalImage.src = imageData.src;
+        modalDescription.textContent = imageData.dataset.description;
+        modalButton.href = imageData.dataset.detailsLink;
+        modalTitle.textContent = imageData.dataset.title;
     }
 
-    btnIzq.addEventListener('click', () => {
+    function cerrarModal() {
+        const modal = document.getElementById("modal");
+        modal.classList.remove("show");
+        document.body.classList.remove("modal-open");
+    }
+
+    document.querySelectorAll(".close-btn").forEach((btn) => {
+        btn.addEventListener("click", cerrarModal);
+    });
+
+    window.addEventListener("click", (event) => {
+        const modal = document.getElementById("modal");
+        if (event.target === modal) cerrarModal();
+    });
+
+    document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") cerrarModal();
+    });
+
+    // ============================
+    //     CARRUSEL DE JUEGOS
+    // ============================
+    fetch("juegos.json")
+    .then((res) => res.json())
+    .then((data) => {
+        mostrarJuegos(data.populares, "videojuegos-populares", "image-popular");
+        mostrarJuegos(data.accion, "carrusel-accion", "image-carrusel");
+        mostrarJuegos(data.aventura, "carrusel-aventura", "image-carrusel");
+        mostrarJuegos(data.simulacion, "carrusel-simulacion", "image-carrusel");
+        prepararEventosModal();
+        inicializarCarrusel(); // 💡 aquí lo llamas después de insertar elementos
+    })
+    .catch((err) => console.error("Error cargando JSON:", err));
+
+    // Nueva función:
+    function inicializarCarrusel() {
+    document.querySelectorAll(".carrusel-wrapper").forEach((wrapper) => {
+        const track = wrapper.querySelector(".carrusel-track");
+        const btnIzq = wrapper.querySelector(".btn-izq");
+        const btnDer = wrapper.querySelector(".btn-der");
+        const items = wrapper.querySelectorAll(".videojuego");
+
+        const visibleItems = 4;
+        const itemWidth = items.length > 0 ? items[0].getBoundingClientRect().width + 20 : 200;
+        let scrollIndex = 0;
+        const maxScrollIndex = Math.max(0, items.length - visibleItems);
+
+        function updateButtons() {
+        btnIzq.style.display = scrollIndex <= 0 ? "none" : "block";
+        btnDer.style.display = scrollIndex >= maxScrollIndex ? "none" : "block";
+        }
+
+        btnIzq.addEventListener("click", () => {
         if (scrollIndex > 0) {
             scrollIndex--;
             track.style.transform = `translateX(-${scrollIndex * itemWidth}px)`;
             updateButtons();
         }
-    });
+        });
 
-    btnDer.addEventListener('click', () => {
+        btnDer.addEventListener("click", () => {
         if (scrollIndex < maxScrollIndex) {
             scrollIndex++;
             track.style.transform = `translateX(-${scrollIndex * itemWidth}px)`;
             updateButtons();
         }
-    });
+        });
 
-    track.style.animation = 'none';
-    updateButtons();
-});
+        track.style.animation = "none";
+        updateButtons();
+    });}
 
-// ============================
-//      HEADER SCROLL FIX
-// ============================
+    // ============================
+    //      HEADER SCROLL FIX
+    // ============================
+    const header = document.querySelector("header");
 
-const header = document.querySelector('header');
-
-if (header) {
-    window.addEventListener('scroll', () => {
+    if (header) {
+        window.addEventListener("scroll", () => {
         if (window.scrollY > 10) {
-            header.classList.add('scrolled');
-            header.style.zIndex = '1000';
+            header.classList.add("scrolled");
+            header.style.zIndex = "1000";
         } else {
-            header.classList.remove('scrolled');
-            header.style.zIndex = '1';
+            header.classList.remove("scrolled");
+            header.style.zIndex = "1";
         }
-    });
-}
+        });
+    }
 
-function toggleDescripcion() {
-    const descripcion = document.querySelector('.descripcion-juego');
-    const botonVerMas = document.querySelector('.ver-mas-btn');
+    // ============================
+    //      CARGA DE JUEGOS
+    // ============================
 
-    if (descripcion && botonVerMas) {
-        if (descripcion.classList.contains('colapsada')) {
-            descripcion.classList.remove('colapsada');
-            botonVerMas.textContent = 'Ver menos';
+    function mostrarJuegos(lista, contenedorId, claseImg) {
+        const contenedor = document.getElementById(contenedorId);
+        if (!contenedor) return;
+
+        lista.slice(0,10).forEach((juego) => {
+        const div = document.createElement("div");
+        div.classList.add(contenedorId === "videojuegos-populares" ? "videojuego-popular" : "videojuego");
+
+        div.innerHTML = `
+            <div class="game-card">
+            <img src="${juego.imagen}" 
+                class="${claseImg}"
+                alt="Videojuego-${juego.id}"
+                data-title="${juego.titulo}"
+                data-description="${juego.descripcion}"
+                data-details-link="${juego.detalle}">
+            <div class="overlay-text">${juego.titulo} (${juego.año})</div>
+            </div>
+        `;
+        contenedor.appendChild(div);
+        });
+    }
+
+    function prepararEventosModal() {
+        document.querySelectorAll(".game-card").forEach((card) => {
+        card.addEventListener("click", () => {
+            const img = card.querySelector("img");
+            if (img) abrirModal(img);
+        });
+        });
+    }
+
+    function toggleDescripcion() {
+        const descripcion = document.querySelector(".descripcion-juego");
+        const botonVerMas = document.querySelector(".ver-mas-btn");
+
+        if (descripcion && botonVerMas) {
+        if (descripcion.classList.contains("colapsada")) {
+            descripcion.classList.remove("colapsada");
+            botonVerMas.textContent = "Ver menos";
         } else {
-            descripcion.classList.add('colapsada');
-            botonVerMas.textContent = 'Ver más';
+            descripcion.classList.add("colapsada");
+            botonVerMas.textContent = "Ver más";
+        }
         }
     }
-}
+});
 
 
