@@ -1,0 +1,22 @@
+/* -------------------- FOOTER -------------------- */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+footer.dark-mode{
+    background-color: #333;
+}

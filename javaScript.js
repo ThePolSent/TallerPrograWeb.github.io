@@ -188,21 +188,31 @@ document.addEventListener("DOMContentLoaded", () => {
     // ============================
     //     CARRUSEL DE JUEGOS
     // ============================
-    fetch("juegos.json")
+    fetch("../../juegos.json")
     .then((res) => res.json())
     .then((data) => {
-        mostrarJuegos(data.populares, "videojuegos-populares", "image-popular");
         mostrarJuegos(data.accion, "carrusel-accion", "image-carrusel");
+        requestAnimationFrame(() => inicializarCarruselPorId("carrusel-accion"));
         mostrarJuegos(data.aventura, "carrusel-aventura", "image-carrusel");
+        requestAnimationFrame(() => inicializarCarruselPorId("carrusel-aventura"));
         mostrarJuegos(data.simulacion, "carrusel-simulacion", "image-carrusel");
+        requestAnimationFrame(() => inicializarCarruselPorId("carrusel-simulacion"));
+        mostrarJuegos(data.estrategia, "carrusel-estrategia", "image-carrusel");
+        requestAnimationFrame(() => inicializarCarruselPorId("carrusel-estrategia"));
+        mostrarJuegos(data.mundoabierto, "carrusel-mundoabierto", "image-carrusel");
+        requestAnimationFrame(() => inicializarCarruselPorId("carrusel-mundoabierto"));
         prepararEventosModal();
-        inicializarCarrusel(); // 💡 aquí lo llamas después de insertar elementos
     })
     .catch((err) => console.error("Error cargando JSON:", err));
 
     // Nueva función:
-    function inicializarCarrusel() {
-    document.querySelectorAll(".carrusel-wrapper").forEach((wrapper) => {
+    function inicializarCarruselPorId(idContenedor) {
+        const contenedor = document.getElementById(idContenedor);
+        if (!contenedor) return;
+
+        const wrapper = contenedor.closest(".carrusel-wrapper");
+        if (!wrapper) return;
+
         const track = wrapper.querySelector(".carrusel-track");
         const btnIzq = wrapper.querySelector(".btn-izq");
         const btnDer = wrapper.querySelector(".btn-der");
@@ -214,29 +224,30 @@ document.addEventListener("DOMContentLoaded", () => {
         const maxScrollIndex = Math.max(0, items.length - visibleItems);
 
         function updateButtons() {
-        btnIzq.style.display = scrollIndex <= 0 ? "none" : "block";
-        btnDer.style.display = scrollIndex >= maxScrollIndex ? "none" : "block";
+            btnIzq.style.display = scrollIndex <= 0 ? "none" : "block";
+            btnDer.style.display = scrollIndex >= maxScrollIndex ? "none" : "block";
         }
 
         btnIzq.addEventListener("click", () => {
-        if (scrollIndex > 0) {
-            scrollIndex--;
-            track.style.transform = `translateX(-${scrollIndex * itemWidth}px)`;
-            updateButtons();
-        }
+            if (scrollIndex > 0) {
+                scrollIndex--;
+                track.style.transform = `translateX(-${scrollIndex * itemWidth}px)`;
+                updateButtons();
+            }
         });
 
         btnDer.addEventListener("click", () => {
-        if (scrollIndex < maxScrollIndex) {
-            scrollIndex++;
-            track.style.transform = `translateX(-${scrollIndex * itemWidth}px)`;
-            updateButtons();
-        }
+            if (scrollIndex < maxScrollIndex) {
+                scrollIndex++;
+                track.style.transform = `translateX(-${scrollIndex * itemWidth}px)`;
+                updateButtons();
+            }
         });
 
         track.style.animation = "none";
         updateButtons();
-    });}
+    }
+
 
     // ============================
     //      HEADER SCROLL FIX

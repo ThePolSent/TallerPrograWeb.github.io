@@ -1,0 +1,126 @@
+/* -------------------- MODAL -------------------- */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000; /* Modal tiene un z-index alto para estar encima del header */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.modal.show {
+    display: block;
+    opacity: 1;
+    animation: slide-down 0.5s ease;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 20px;
+    border: 2px solid #fff;
+    width: 90%;
+    max-width: 730px;
+    border-radius: 10px;
+    color: #000;
+    position: relative;
+    overflow: auto;
+    max-height: 90vh;
+    text-align: center; /* Alinea todo el contenido al centro */
+    animation: fadeIn 0.5s ease-in-out; /* Animación para el contenido */
+}
+
+#modal-description{
+    color: white;
+}
+
+/* Asegurarse de que el título esté centrado */
+.modal-content h2 {
+    margin: 0; /* Elimina márgenes innecesarios */
+    font-size: 1.5em; /* Ajusta el tamaño del título si es necesario */
+    
+}
+
+.close-btn {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.close-btn:hover {
+    color: red;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    min-height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+}
+
+.modal-body img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: contain;
+    
+}
+
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.description {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 1px solid #555;
+    line-height: 1.6;
+    word-wrap: break-word;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.btn-details {
+    padding: 10px 20px;
+    background-color: #484b4e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 15px;
+    align-self: flex-start;
+    transition: background-color 0.3s ease;
+
+}
+
+.btn-details:hover {
+    background-color: #9ca0a3;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
