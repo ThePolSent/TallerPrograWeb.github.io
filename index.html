@@ -5,64 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playsent | Videojuegos y más</title>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/carrusel.css">
-    <link rel="stylesheet" href="../../css/catalogo.css">
-    <link rel="stylesheet" href="../../css/demas.css">
-    <link rel="stylesheet" href="../../css/header.css">
-    <link rel="stylesheet" href="../../css/footer.css">
-    <link rel="stylesheet" href="../../css/modal.css">
-    <link rel="stylesheet" href="../../css/nav.css">
-    <link rel="stylesheet" href="../../css/responsive.css">
+    <link rel="stylesheet" href="/css/carrusel.css">
+    <link rel="stylesheet" href="/css/catalogo.css">
+    <link rel="stylesheet" href="/css/demas.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/modal.css">
+    <link rel="stylesheet" href="/css/responsive.css">
 </head>
 
 <body>
-    <!-- Cabecera -->
+<!-- Cabecera -->
     <header>
-            <div class="logo">
-                <h1>
-                    <img src="../../contenido/imagenes/logo/logojoystick.png" alt="Logo de PlaySent">
-                    <a href="../../index.html">PlaySent</a>
-                </h1>
-            </div>
-    <!-- Menu de navegación -->
-    <div class="container">
-        <nav>
-            <ul id="nav-list">
-                
-                <li><a href="/categorias/accion.html"><ion-icon name="flash-outline"></ion-icon>Acción</a></li>
-                <li><a href="/categorias/aventura.html"><ion-icon name="compass-outline"></ion-icon>Aventura</a></li>
-                <li><a href="/categorias/simulacion.html"><ion-icon name="hardware-chip-outline"></ion-icon>Simulación</a></li>
-                <li><a href="/categorias/estrategia.html"><ion-icon name="analytics-outline"></ion-icon>Estrategia</a></li>
-                <li><a href="/categorias/mundoabierto.html"><ion-icon name="earth-outline"></ion-icon>Mundo Abierto</a></li>                                                                                                          
-            </ul>
-
-        </nav>
-        <!-- Menú hamburguesa -->
-        <div id="menu-toggle" class="menu-hamburguesa">
-            <ion-icon name="menu-outline"></ion-icon>
-        </div>
+    <div class="logo">
+        <h1>
+        <img src="../../contenido/imagenes/logo/logojoystick.png" alt="Logo de PlaySent">
+        <a href="../../index.html">PlaySent</a>
+        </h1>
     </div>
+
+    <!-- Botón Menú Hamburguesa (Nuevo) -->
+    <button id="menu-toggle" class="btn-menu" aria-label="Abrir menú">
+        <ion-icon name="menu-outline"></ion-icon>
+    </button>
+
     <!-- Contenedor de acciones -->
     <div class="actions">
-
         <!-- Botón Audio -->
         <button id="audio-toggle" class="btn-audio">
-            <ion-icon id="audio-icon" name="volume-mute-outline"></ion-icon>
+        <ion-icon id="audio-icon" name="volume-mute-outline"></ion-icon>
         </button>
         <audio id="audio-player" src="../../../contenido/audio/audio-principal/principal.mp3"></audio>
 
         <!-- Botón Modo Oscuro -->
         <button id="theme-toggle" class="btn-theme">
-            <ion-icon id="theme-icon" name="moon-outline"></ion-icon>
+        <ion-icon id="theme-icon" name="moon-outline"></ion-icon>
         </button>
 
         <!-- Botón Iniciar Sesión -->
         <a href="javascript:redirectToLogin()" id="login-icon">
-            <ion-icon name="person-circle-outline"></ion-icon>
-        </a>        
+        <ion-icon name="person-circle-outline"></ion-icon>
+        </a>
     </div>
 
-    <div class="user-menu" id="userMenu" style="display: none;">
+    <!-- Menú usuario -->
+    <div class="user-menu has-submenu" id="userMenu" style="display: none;">
         <button id="userButton">
             <ion-icon name="person-circle-outline"></ion-icon>
         </button>
@@ -73,54 +60,58 @@
     </div>
     </header>
 
+    <!-- Sidebar deslizable -->
+    <nav id="sidebar" class="sidebar">
+    <ul>
+        <li class="collapsible-section">
+        <button class="collapsible-btn solo-icono" onclick="location.href='/carrito.html'">
+            <span><ion-icon name="cart-outline"></ion-icon> Carrito</span>
+        </button>
+        </li>
+
+        <li class="collapsible-section">
+        <button class="collapsible-btn solo-icono" onclick="location.href='/listadeseados.html'">
+            <span><ion-icon name="heart-outline"></ion-icon> Wishlist</span>
+        </button>
+        </li>
+
+        <li class="collapsible-section">
+        <button class="collapsible-btn">
+            Categorías <ion-icon name="chevron-down-outline"></ion-icon>
+        </button>
+        <div class="collapsible-content">
+            <a href="/categorias/accion.html"><ion-icon name="flash-outline"></ion-icon> Acción</a>
+            <a href="/categorias/aventura.html"><ion-icon name="compass-outline"></ion-icon> Aventura</a>
+            <a href="/categorias/simulacion.html"><ion-icon name="hardware-chip-outline"></ion-icon> Simulación</a>
+            <a href="/categorias/estrategia.html"><ion-icon name="analytics-outline"></ion-icon> Estrategia</a>
+            <a href="/categorias/mundoabierto.html"><ion-icon name="earth-outline"></ion-icon> Mundo Abierto</a>
+        </div>
+        </li>
+
+        <li class="collapsible-section">
+        <button class="collapsible-btn">
+            Redes Sociales <ion-icon name="chevron-down-outline"></ion-icon>
+        </button>
+        <div class="collapsible-content">
+            <a href="https://twitter.com"><ion-icon name="logo-twitter"></ion-icon> Twitter</a>
+            <a href="https://facebook.com"><ion-icon name="logo-facebook"></ion-icon> Facebook</a>
+            <a href="https://instagram.com"><ion-icon name="logo-instagram"></ion-icon> Instagram</a>
+        </div>
+        </li>
+
+    </ul>
+    </nav>
 
     <!-- Cuerpo -->
     <main class ="mostrador">
+    <!-- Carrusel automático de juegos populares con imágenes anchas -->
         <section id="VideojuegosPopulares">
-            <h2>Juegos Mas Populares</h2>
-            <div class="Contenedor-videojuegos-populares"id="videojuegos-populares-manual" >
-                <div class="videojuego-popular">
-                    <div class ="game-card">
-                        <img src="https://i.pinimg.com/736x/c8/cc/44/c8cc44624d8cf36ecf08f5fcafad57b4.jpg" 
-                        data-title="Minecraft"
-                        alt="Videojuego-Minecraft" 
-                        class="image-popular"
-                        data-description="Minecraft es un juego de mundo abierto donde los jugadores pueden explorar, construir, recolectar recursos y sobrevivir en un entorno 
-                        generado aleatoriamente. Sin una historia lineal, ofrece libertad total para crear estructuras, combatir criaturas y descubrir biomas. Su estilo visual 
-                        en bloques y su jugabilidad creativa lo convierten en una experiencia única para jugadores de todas las edades."
-                        data-details-link="detallejuegos\detalle-mundoabierto\detalle-minecraft\detalle-minecraft.html">
-                        <div class="overlay-text">Minecraft(2009)</div>
-                    </div>
+            <h2>Juegos Más Populares</h2>
+            <div class="carrusel-popular-wrapper">
+                <div class="carrusel-popular-track" id="carrusel-populares">
+                    <!-- Las tarjetas se cargarán dinámicamente desde juegos.json -->
                 </div>
-                <div class="videojuego-popular">
-                    <div class="game-card">
-                        <img src="https://i.pinimg.com/736x/f9/12/f7/f912f7125d3ab1fabdd965e6dc479093.jpg" 
-                        alt="Videojuego-gtav" 
-                        class="image-popular"
-                        data-title="Grand Theft Auto V"
-                        data-description="Grand Theft Auto V (GTA V) es un juego de acción y mundo abierto que sigue la historia de tres criminales muy diferentes: 
-                        Michael, un ex ladrón de bancos retirado; Franklin, un joven ambicioso del barrio; y Trevor, un violento y caótico fugitivo. Ambientado en la ciudad 
-                        ficticia de Los Santos, el juego combina sus vidas mientras realizan atracos arriesgados, enfrentan traiciones y luchan contra enemigos del bajo mundo 
-                        y del gobierno. La historia mezcla crimen, humor negro y crítica social, todo dentro de un mundo abierto lleno de actividades y libertad para explorar."
-                        data-details-link="detallejuegos\detalle-mundoabierto\detalle-gtav\detalle-gtav.html">
-                        <div class="overlay-text">Grand Theft Auto V</div>
-                    </div>
-                </div>
-                <div class="videojuego-popular">
-                    <div class = "game-card">
-                        <img src="https://i.pinimg.com/736x/d2/a4/5c/d2a45cc2083abc8bf1c21e47e0b29c3a.jpg"
-                        data-title="Red Dead Redeption II" 
-                        alt="Videojuego-reddeadredeptionII"
-                        class="image-popular"
-                        data-description="Red Dead Redemption II sigue la historia de Arthur Morgan, un forajido veterano y miembro de la 
-                        banda de Dutch van der Linde, mientras lucha por sobrevivir en el ocaso del Viejo Oeste. Ambientado en 1899, el juego 
-                        muestra la decadencia del estilo de vida criminal, el conflicto entre la lealtad a la banda y los ideales personales de Arthur. 
-                        A medida que las tensiones aumentan y las autoridades se acercan, Arthur debe tomar decisiones que definirán su destino. 
-                        La narrativa mezcla acción, drama y exploración en un mundo abierto vibrante, con temas de redención, honor y el peso del pasado."
-                        data-details-link="detallejuegos\detalle-aventura\detalle-redeaddepemtionii\detalle-reddeaddepemptionii.html">
-                        <div class ="overlay-text">Red Dead Redemption II</div>
-                    </div>
-                </div>
+            </div>
         </section>
         
         <section id="VideojuegosCategoriaAccion">
@@ -182,11 +173,6 @@
 
     <!-- Footer -->
     <footer>
-        <nav>
-            <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon> Facebook</a>
-            <a href="https://x.com/home"><ion-icon name="logo-twitter"></ion-icon> Twitter</a>
-            <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon> Instagram</a>
-        </nav>
         <p>&copy; PlaySent. Todos los derechos reservados.</p>
         <nav>
             <a href="#">Política de Privacidad</a> |
@@ -197,18 +183,34 @@
         <div class="modal-content">
             <span class="close-btn">&times;</span>
             <h3 id="modal-title"></h3>
+
             <div class="modal-body">
-                <img src="" alt="Imagen Modal" id="modal-image">
-                <div class="info-container"> 
+                <!-- Columna: Imagen + precio + botones -->
+                <div class="image-container">
+                    <img src="" alt="Imagen Modal" id="modal-image">
+
+                    <!-- Precio del juego -->
+                    <p class="game-price" id="modal-price">S/ 29.90</p>
+
+                    <!-- Botones debajo del precio -->
+                    <div class="btn-group-top">
+                        <button class="btn-cart">Añadir al carrito</button>
+                        <button class="btn-wishlist">Añadir a deseados</button>
+                    </div>
+                </div>
+
+                <!-- Columna: Descripción + botón de detalles -->
+                <div class="info-container">
                     <div class="description">
                         <p id="modal-description"></p>
                     </div>
-                    <a href="#" class="btn-details" id="modal-button">Más detalles</a>
+                    <a href="#" class="btn-details" id="modal-button">Ver más detalles</a>
                 </div>
             </div>
         </div>
     </div>
-    <script src="javaScript.js"></script>
+    <script type="module" src="./js/main.js"></script>
+
 </body>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

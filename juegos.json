@@ -1154,12 +1154,14 @@
             "id": "gtav" ,
             "titulo": "Grand Theft Auto V" ,
             "año": "2013" ,
-            "imagen":"" ,
+            "imagen":"https://i.pinimg.com/736x/f9/12/f7/f912f7125d3ab1fabdd965e6dc479093.jpg" ,
+            "imagenBanner":"https://img.goodfon.com/original/1920x1080/a/a5/gta-gta-v-gta-5-rockstar-game-5652.jpg",
             "descripcion": "Grand Theft Auto V (GTA V) es un juego de acción y mundo abierto que sigue la historia de tres criminales muy diferentes: Michael, un ex ladrón de bancos retirado; Franklin, un joven ambicioso del barrio; y Trevor, un violento y caótico fugitivo. Ambientado en la ciudad ficticia de Los Santos, el juego combina sus vidas mientras realizan atracos arriesgados, enfrentan traiciones y luchan contra enemigos del bajo mundo y del gobierno. La historia mezcla crimen, humor negro y crítica social, todo dentro de un mundo abierto lleno de actividades y libertad para explorar.",
             "detalle":"",
             "categorias": [
                 "accion",
-                "aventura"
+                "aventura",
+                "popular"
             ]
         },
         {
@@ -1169,6 +1171,7 @@
             "imagen":"https://i.pinimg.com/736x/57/5b/2e/575b2e4fd17a2221649700af93b8895e.jpg" ,
             "descripcion": "CJ Johnson, quien regresa a su ciudad natal, Los Santos, después de la muerte de su madre. A lo largo del juego, CJ se ve involucrado en una serie de eventos que incluyen la lucha por recuperar el control de su barrio, enfrentarse a bandas rivales y desmantelar una red de corrupción dentro de la policía. Ambientado en el estado ficticio de San Andreas, que incluye tres ciudades principales, el juego combina acción, crimen, y una narrativa profunda que explora temas de familia, lealtad y poder. Además, ofrece un mundo abierto lleno de misiones, actividades y una gran libertad para explorar.",
             "detalle":"",
+            "precio":"$9.99",
             "categorias": [
                 "accion",
                 "aventura"
@@ -1179,11 +1182,14 @@
             "titulo": "Minecraft" ,
             "año": "2009" ,
             "imagen":"https://i.pinimg.com/736x/c8/cc/44/c8cc44624d8cf36ecf08f5fcafad57b4.jpg" ,
+            "imagenBanner":"https://wallpapers.com/images/high/minecraft-logo-on-a-basic-block-uxrhdk9k1m8tlilm.webp",
             "descripcion": "Minecraft es un juego de mundo abierto donde los jugadores pueden explorar, construir, recolectar recursos y sobrevivir en un entorno generado aleatoriamente. Sin una historia lineal, ofrece libertad total para crear estructuras, combatir criaturas y descubrir biomas. Su estilo visual en bloques y su jugabilidad creativa lo convierten en una experiencia única para jugadores de todas las edades.",
-            "detalle":"",
+            "detalle": "/detallejuegos/detalle-mundoabierto/detalle-minecraft/detalle-minecraft.html",
+            "precio":"9.99",
             "categorias": [
                 "accion",
-                "aventura"
+                "aventura",
+                "popular"
             ]
         },
         {

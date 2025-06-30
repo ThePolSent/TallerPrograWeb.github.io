@@ -2,16 +2,17 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Playsent | Juegos de Acción</title>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/demas.css" />
-    <link rel="stylesheet" href="../../css/header.css" />
-    <link rel="stylesheet" href="../../css/footer.css" />
-    <link rel="stylesheet" href="../../css/modal.css" />
-    <link rel="stylesheet" href="../../css/catalogo.css" />
-    <link rel="stylesheet" href="../../css/categorias/responsive.css" />
-    <link rel="stylesheet" href="../css/accion.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Playsent | Lista de Deseados</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/carrusel.css" />
+    <link rel="stylesheet" href="/css/catalogo.css" />
+    <link rel="stylesheet" href="/css/demas.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/modal.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+    <link rel="stylesheet" href="../../../css/listadeseados.css" />
 </head>
 <body>
 <!-- Cabecera -->
@@ -63,33 +64,40 @@
     <nav id="sidebar" class="sidebar">
     <ul>
         <li class="collapsible-section">
-        <button class="collapsible-btn solo-icono" onclick="location.href='../../carrito.html'">
+        <button class="collapsible-btn solo-icono" onclick="location.href='/index.html'">
+            <span><ion-icon name="home-outline"></ion-icon> Inicio</span>
+        </button>
+        </li>
+        <li class="collapsible-section">
+        <button class="collapsible-btn solo-icono" onclick="location.href='/carrito.html'">
             <span><ion-icon name="cart-outline"></ion-icon> Carrito</span>
         </button>
         </li>
 
         <li class="collapsible-section">
-        <button class="collapsible-btn solo-icono" onclick="location.href='../../listadeseados.html'">
+        <button class="collapsible-btn solo-icono" onclick="location.href='/listadeseados.html'">
             <span><ion-icon name="heart-outline"></ion-icon> Wishlist</span>
         </button>
         </li>
 
         <li class="collapsible-section">
         <button class="collapsible-btn">
-            Categorías <ion-icon name="chevron-down-outline"></ion-icon>
+            <span><ion-icon name="grid-outline"></ion-icon> Categorías</span>
+            <ion-icon name="chevron-down-outline"></ion-icon>
         </button>
         <div class="collapsible-content">
-            <a href="../../categorias/accion.html"><ion-icon name="flash-outline"></ion-icon> Acción</a>
-            <a href="../../categorias/aventura.html"><ion-icon name="compass-outline"></ion-icon> Aventura</a>
-            <a href="../../categorias/simulacion.html"><ion-icon name="hardware-chip-outline"></ion-icon> Simulación</a>
-            <a href="../../categorias/estrategia.html"><ion-icon name="analytics-outline"></ion-icon> Estrategia</a>
-            <a href="../../categorias/mundoabierto.html"><ion-icon name="earth-outline"></ion-icon> Mundo Abierto</a>
+            <a href="/categorias/accion.html"><ion-icon name="flash-outline"></ion-icon> Acción</a>
+            <a href="/categorias/aventura.html"><ion-icon name="compass-outline"></ion-icon> Aventura</a>
+            <a href="/categorias/simulacion.html"><ion-icon name="hardware-chip-outline"></ion-icon> Simulación</a>
+            <a href="/categorias/estrategia.html"><ion-icon name="analytics-outline"></ion-icon> Estrategia</a>
+            <a href="/categorias/mundoabierto.html"><ion-icon name="earth-outline"></ion-icon> Mundo Abierto</a>
         </div>
         </li>
 
         <li class="collapsible-section">
         <button class="collapsible-btn">
-            Redes Sociales <ion-icon name="chevron-down-outline"></ion-icon>
+            <span><ion-icon name="share-social-outline"></ion-icon> Redes Sociales</span>
+            <ion-icon name="chevron-down-outline"></ion-icon>
         </button>
         <div class="collapsible-content">
             <a href="https://twitter.com"><ion-icon name="logo-twitter"></ion-icon> Twitter</a>
@@ -97,26 +105,20 @@
             <a href="https://instagram.com"><ion-icon name="logo-instagram"></ion-icon> Instagram</a>
         </div>
         </li>
-
     </ul>
     </nav>
 
-
-    <!-- Cuerpo -->
-    <main class="main-contenido">
-        <h2 class="titulo-categoria">Juegos de Aventura</h2>
-        <section id="grid-juegos" class="steam-grid" data-categoria="aventura">
-            <!-- Aquí se insertarán dinámicamente las tarjetas tipo Steam -->
-        </section>
+    <!-- Main Wishlist -->
+    <main class="wishlist-main" style="padding: 100px 20px 40px;">
+        <h2 style="text-align:center;">💖 Tu lista de deseados</h2>
+        <div id="wishlist-lista" class="wishlist-lista"></div>
+        <p id="wishlist-empty" style="text-align:center; font-size:1.2rem; margin-top: 30px; display:none;">
+            No tienes juegos en tu lista de deseados.
+        </p>
     </main>
 
     <!-- Footer -->
     <footer>
-        <nav>
-            <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon> Facebook</a>
-            <a href="https://x.com/home"><ion-icon name="logo-twitter"></ion-icon> Twitter</a>
-            <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon> Instagram</a>
-        </nav>
         <p>&copy; PlaySent. Todos los derechos reservados.</p>
         <nav>
             <a href="#">Política de Privacidad</a> |
@@ -124,27 +126,11 @@
         </nav>
     </footer>
 
-    <!-- Modal -->
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <h3 id="modal-title"></h3>
-            <div class="modal-body">
-                <img src="" alt="Imagen Modal" id="modal-image" />
-                <div class="info-container">
-                    <div class="description">
-                        <p id="modal-description"></p>
-                    </div>
-                    <a href="#" class="btn-details" id="modal-button">Más detalles</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <script type="module" src="/js/listadeseados-page.js"></script>
+    <script src="/js/moda-carrito.js"></script>
+    <script type="module" src="./js/main.js"></script>
 
-    <!-- Scripts -->
-    <script type="module" src="../../js/main.js"></script>
-    <script type="module" src="../js/accion-page.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
-</html>
+</html>  
