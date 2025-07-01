@@ -18,7 +18,7 @@
             "año": "" ,
             "imagen":"https://i.pinimg.com/736x/a5/c5/29/a5c529a21b85c978bd4e1874762d29d3.jpg" ,
             "descripcion": "Counter-Strike 2 es un juego de disparos en primera persona basado en equipos, donde los jugadores se dividen en dos bandos: los terroristas, que intentan plantar una bomba o tomar rehenes, y los antiterroristas, que deben evitarlo. El juego se centra en la estrategia, la cooperación en equipo y la habilidad individual, ofreciendo partidas rápidas y competitivas. Counter-Strike 2 es la secuela de Counter-Strike, mejorando la jugabilidad, los gráficos y añadiendo nuevas características mientras conserva la esencia del juego original.",
-            "detalle":"detallejuegos/detalle-accion/detalle-cs2/detalle-cs2.html",
+            "detalle":"../../../../detallejuegos/detalle-accion/cs2.html",
             "categorias": [
                 "accion",
                 "aventura"

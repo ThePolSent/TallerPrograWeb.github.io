@@ -10,11 +10,6 @@
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-body:not(.dark-mode) .steam-grid {
-    background-color: #f5f5f5;
-    color: #000;
-}
-
 /* Tarjeta de juego */
 .steam-card {
     position: relative;
@@ -23,11 +18,6 @@ body:not(.dark-mode) .steam-grid {
     overflow: hidden;
     transition: transform 0.2s, box-shadow 0.3s, background-color 0.5s ease;
     cursor: pointer;
-}
-
-body:not(.dark-mode) .steam-card {
-    background-color: #fff;
-    border: 1px solid #ccc;
 }
 
 /* Corregir estilos de enlaces dentro de tarjetas */
@@ -94,10 +84,6 @@ body:not(.dark-mode) .steam-card {
     font-size: 0.9em;
 }
 
-body:not(.dark-mode) .original-price {
-    color: #999;
-}
-
 .final-price {
     color: inherit;
     font-weight: bold;
@@ -120,10 +106,7 @@ body:not(.dark-mode) .original-price {
     transition: background-color 0.5s ease;
 }
 
-body:not(.dark-mode) .steam-card-tooltip {
-    background-color: #eee;
-    color: #111;
-}
+
 
 .steam-card:hover .steam-card-tooltip {
     display: block;
@@ -144,11 +127,6 @@ body:not(.dark-mode) .steam-card-tooltip {
     border-radius: 3px;
 }
 
-body:not(.dark-mode) .steam-tag {
-    background-color: #ddd;
-    color: #333;
-}
-
 /* Título principal */
 .titulo-categoria {
     text-align: center;
@@ -160,18 +138,4 @@ body:not(.dark-mode) .steam-tag {
     font-family: 'Press Start 2P', cursive;
 }
 
-body:not(.dark-mode) .titulo-categoria {
-    color: #111;
-    text-shadow: none;
-}
 
-/* Responsive */
-@media (max-width: 600px) {
-    .steam-card-info h3 {
-        font-size: 1em;
-    }
-
-    .titulo-categoria {
-        font-size: 1.6em;
-    }
-}

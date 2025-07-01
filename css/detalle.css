@@ -8,11 +8,6 @@
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-body.dark-mode .detalle-main {
-    background-color: #121212;
-    color: #fff;
-}
-
 .detalle-main h2, .detalle-main h3, .detalle-main h4 {
     font-family: 'Press Start 2P', cursive;
     text-align: center;
@@ -57,11 +52,6 @@ body.dark-mode .detalle-main {
     transition: box-shadow 0.4s ease;
 }
 
-body.dark-mode .detalle-img,
-body.dark-mode .detalle-video {
-    box-shadow: 0 0 14px #333;
-}
-
 /* -------------------- DESCRIPCIÓN -------------------- */
 .detalle-descripcion {
     background-color: #eaeaea;
@@ -76,13 +66,6 @@ body.dark-mode .detalle-video {
     color: #222;
     border-left: 6px solid #1db954;
     transition: background-color 0.4s ease, color 0.4s ease;
-}
-
-body.dark-mode .detalle-descripcion {
-    background-color: #1f1f1f;
-    color: #eee;
-    border-left: 6px solid #1db954;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 /* -------------------- BOTONES DE ACCIÓN -------------------- */
@@ -113,18 +96,6 @@ body.dark-mode .detalle-descripcion {
     transform: scale(1.05);
 }
 
-body.dark-mode .detalle-acciones button {
-    background-color: #444;
-    color: #fff;
-    border-color: #1db954;
-}
-
-body.dark-mode .detalle-acciones button:hover {
-    background-color: #1db954;
-    color: #000;
-    border-color: #000;
-}
-
 /* -------------------- FICHA TÉCNICA -------------------- */
 .detalle-ficha {
     background-color: #f2f2f2;
@@ -135,13 +106,6 @@ body.dark-mode .detalle-acciones button:hover {
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
     border: 2px dashed #999;
     transition: background-color 0.4s ease;
-}
-
-body.dark-mode .detalle-ficha {
-    background-color: #2b2b2b;
-    border: 2px dashed #666;
-    color: #fff;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
 }
 
 .detalle-ficha h3 {
@@ -170,12 +134,6 @@ body.dark-mode .detalle-ficha {
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
     overflow-x: auto;
     border: 2px solid #444;
-}
-
-body.dark-mode .detalle-requisitos {
-    background-color: #3a3a3a;
-    border: 2px solid #555;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 .detalle-requisitos h3 {
@@ -210,24 +168,12 @@ body.dark-mode .detalle-requisitos {
     text-shadow: 1px 1px #1db954;
 }
 
-body.dark-mode .detalle-requisitos thead th {
-    background-color: #2c2c2c;
-}
-
 .detalle-requisitos tbody tr:nth-child(even) td {
     background-color: #2e2e2e;
 }
 
 .detalle-requisitos tbody tr:nth-child(odd) td {
     background-color: #383838;
-}
-
-body.dark-mode .detalle-requisitos tbody tr:nth-child(even) td {
-    background-color: #444;
-}
-
-body.dark-mode .detalle-requisitos tbody tr:nth-child(odd) td {
-    background-color: #555;
 }
 
 .detalle-requisitos tbody tr:hover td {
@@ -274,23 +220,4 @@ body.dark-mode .detalle-requisitos tbody tr:nth-child(odd) td {
     background: linear-gradient(145deg, #555, #3a3a3a);
 }
 
-body.dark-mode .categoria-tag {
-    background: linear-gradient(145deg, #666, #444);
-    border: 1px solid #888;
-}
 
-body.dark-mode .categoria-tag:hover {
-    background: linear-gradient(145deg, #888, #666);
-}
-
-/* -------------------- RESPONSIVE -------------------- */
-@media (max-width: 992px) {
-    .detalle-multimedia {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .detalle-video {
-        width: 100%;
-    }
-}

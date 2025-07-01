@@ -8,11 +8,6 @@
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-body.dark-mode .carrito-main {
-    background-color: #111;
-    color: #fff;
-}
-
 .carrito-main h2,
 .carrito-main h3 {
     text-align: left;
@@ -50,12 +45,6 @@ body.dark-mode .carrito-main {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease, background-color 0.3s ease, border-color 0.3s ease;
     gap: 15px;
-}
-
-body.dark-mode .carrito-item {
-    background-color: #1b1b1b;
-    border-color: #2e2e2e;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 .carrito-item:hover {
@@ -98,10 +87,6 @@ body.dark-mode .carrito-item {
     text-overflow: ellipsis;
 }
 
-body.dark-mode .carrito-info .descripcion {
-    color: #aaa;
-}
-
 /* -------------------- BOTÓN ELIMINAR -------------------- */
 .carrito-item button {
     background-color: #ff3b3b;
@@ -131,12 +116,6 @@ body.dark-mode .carrito-info .descripcion {
     align-self: flex-start;
 }
 
-body.dark-mode .carrito-resumen {
-    background-color: #1b1b1b;
-    border-color: #2e2e2e;
-    color: #fff;
-}
-
 #total-carrito {
     font-size: 1.4em;
     font-weight: bold;
@@ -162,73 +141,4 @@ body.dark-mode .carrito-resumen {
     background-color: #1db954;
     border-left: 4px solid #1db954;
     padding-left: 28px;
-}
-
-body:not(.dark-mode) #btn-comprar {
-    background-color: #666;
-}
-
-body:not(.dark-mode) #btn-comprar:hover {
-    background-color: #1db954;
-}
-
-/* -------------------- RESPONSIVE -------------------- */
-@media (max-width: 992px) {
-    .carrito-contenedor {
-        flex-direction: column;
-    }
-
-    .carrito-resumen {
-        width: 100%;
-        margin-top: 30px;
-    }
-}
-
-@media (max-width: 768px) {
-    .carrito-item {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
-    }
-
-    .carrito-item img {
-        width: 100%;
-        height: auto;
-    }
-
-    .carrito-item button {
-        width: 100%;
-        text-align: center;
-    }
-
-    #btn-comprar {
-        width: 100%;
-    }
-    .carrito-main h2 {
-        text-align: center;
-        padding-left: 0;
-    }
-}
-
-@media (max-width: 480px) {
-    .carrito-main {
-        padding: 80px 15px 30px;
-    }
-
-    .carrito-info h4 {
-        font-size: 0.95em;
-    }
-
-    .carrito-info .precio {
-        font-size: 0.85em;
-    }
-
-    .carrito-info .descripcion {
-        font-size: 0.8em;
-    }
-
-    #btn-comprar {
-        font-size: 0.9em;
-        padding: 10px 20px;
-    }
 }

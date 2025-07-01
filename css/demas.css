@@ -28,145 +28,7 @@ body {
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-/* -------------------- MODO OSCURO -------------------- */
-body.dark-mode {
-    background-color: #121212;
-    color: #ffffff;
-}
 
-body.dark-mode header,
-body.dark-mode ul,
-body.dark-mode footer,
-body.dark-mode .submenu,
-body.dark-mode .sidebar {
-    background-color: #1e1e1e;
-    color: #ffffff;
-}
-
-body.dark-mode button,
-body.dark-mode input {
-    background-color: #2a2a2a;
-    color: #fff;
-    border: 1px solid #444;
-}
-
-body.dark-mode .description,
-body.dark-mode .modal-content {
-    background-color: #2a2a2a;
-    color: #fff;
-    border-color: #555;
-}
-
-body.dark-mode .btn-details {
-    background-color: #9ca0a3;
-    color: #000;
-}
-
-body.dark-mode .close-btn {
-    color: #fff;
-    background-color: #333;
-}
-
-body.dark-mode .close-btn:hover {
-    color: red;
-}
-
-/* Sidebar links */
-body.dark-mode .sidebar ul li a {
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.03);
-}
-
-body.dark-mode .sidebar ul li a:hover {
-    background-color: rgba(29, 185, 84, 0.15);
-    border-left: 4px solid #1db954;
-    color: #1db954;
-    box-shadow: 0 0 10px #1db95455;
-}
-
-/* Botones colapsables */
-body.dark-mode .collapsible-btn {
-    background-color: rgba(255, 255, 255, 0.04);
-    color: #fff;
-}
-
-body.dark-mode .collapsible-btn:hover {
-    background-color: rgba(29, 185, 84, 0.15);
-    color: #1db954;
-    box-shadow: 0 0 10px #1db95455;
-}
-
-body.dark-mode .hover-card {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.2));
-    color: #fff;
-}
-
-body.dark-mode .hover-card p {
-    color: #ccc;
-}
-
-/* -------------------- MODO CLARO -------------------- */
-body:not(.dark-mode) .sidebar {
-    background: linear-gradient(to bottom, #fdfdfd, #eeeeee);
-    color: #000;
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-body:not(.dark-mode) .sidebar ul li a,
-body:not(.dark-mode) .collapsible-btn {
-    color: #000;
-    background-color: rgba(0, 0, 0, 0.03);
-}
-
-body:not(.dark-mode) .sidebar ul li a:hover,
-body:not(.dark-mode) .collapsible-btn:hover {
-    background-color: rgba(29, 185, 84, 0.1);
-    color: #1db954;
-    box-shadow: 0 0 10px #1db95433;
-    border-left: 4px solid #1db954;
-}
-
-body:not(.dark-mode) .submenu {
-    background-color: #fff;
-    color: #000;
-}
-
-body:not(.dark-mode) .collapsible-btn:hover {
-    background-color: #e0f7ea;
-    color: #1db954;
-    box-shadow: inset 4px 0 0 #1db95444;
-}
-
-body:not(.dark-mode) .close-btn {
-    color: #000;
-
-}
-
-body:not(.dark-mode) .close-btn:hover {
-    color: red;
-}
-body:not(.dark-mode) .hover-card {
-    background: linear-gradient(to top, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.2));
-    color: #111;
-}
-
-body:not(.dark-mode) .hover-card h3 {
-    color: #111;
-}
-
-body:not(.dark-mode) .hover-card p {
-    color: #333;
-}
-
-body:not(.dark-mode) .videojuego-popular .hover-card {
-    background: linear-gradient(to top, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.2));
-    text-shadow: none;
-}
-
-body:not(.dark-mode) .videojuego-popular .hover-card h3,
-body:not(.dark-mode) .videojuego-popular .hover-card p {
-    color: #111;
-}
 
 /* -------------------- TRANSICIONES -------------------- */
 body,
@@ -203,9 +65,7 @@ input,
     transform: scale(1.1);
 }
 
-body.dark-mode .btn-theme:hover {
-    background-color: rgba(255, 255, 255, 0.15);
-}
+
 
 /* -------------------- TIPOGRAFÍA RETRO -------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
@@ -235,13 +95,6 @@ body.dark-mode .btn-theme:hover {
     color: white;
 }
 
-body.dark-mode #audio-toggle:hover {
-    background-color: #292828;
-}
-
-body:not(.dark-mode) #audio-toggle:hover {
-    background-color: #757474;
-}
 
 /* -------------------- HEADER ACTIONS -------------------- */
 header .actions {
@@ -368,16 +221,7 @@ body:not(.dark-mode) #login-btn:hover {
     color: #f44336;
 }
 
-body.dark-mode .user-menu .submenu {
-    background-color: #2a2a2a;
-    border-color: #444;
-    color: #fff;
-}
 
-body.dark-mode .user-menu p,
-body.dark-mode .user-menu button ion-icon {
-    color: #fff;
-}
 
 
 /* -------------------- TRANSICIONES -------------------- */
@@ -415,9 +259,6 @@ input,
     transform: scale(1.1);
 }
 
-body.dark-mode .btn-theme:hover {
-    background-color: rgba(255, 255, 255, 0.15);
-}
 
 /* -------------------- TIPOGRAFÍA RETRO -------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
@@ -447,13 +288,6 @@ body.dark-mode .btn-theme:hover {
     color: white;
 }
 
-body.dark-mode #audio-toggle:hover {
-    background-color: #292828;
-}
-
-body:not(.dark-mode) #audio-toggle:hover {
-    background-color: #757474;
-}
 
 /* -------------------- HEADER ACTIONS -------------------- */
 header .actions {
@@ -481,13 +315,7 @@ header .actions ion-icon {
     font-size: 28px;
 }
 
-body.dark-mode #login-btn:hover {
-    background-color: #292828;
-}
 
-body:not(.dark-mode) #login-btn:hover {
-    background-color: #757474;
-}
 
 /* -------------------- LOGIN FORM -------------------- */
 #login-form {
@@ -580,13 +408,3 @@ body:not(.dark-mode) #login-btn:hover {
     color: #f44336;
 }
 
-body.dark-mode .user-menu .submenu {
-    background-color: #2a2a2a;
-    border-color: #444;
-    color: #fff;
-}
-
-body.dark-mode .user-menu p,
-body.dark-mode .user-menu button ion-icon {
-    color: #fff;
-}

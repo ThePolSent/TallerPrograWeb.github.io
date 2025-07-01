@@ -8,11 +8,6 @@
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-body.dark-mode .wishlist-main {
-    background-color: #111;
-    color: #fff;
-}
-
 .wishlist-main h2 {
     text-align: center;
     margin-bottom: 30px;
@@ -45,12 +40,6 @@ body.dark-mode .wishlist-main {
     background-color: #eaeaea;
     border: 1px solid #ccc;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-body.dark-mode .wishlist-lista .game-card {
-    background-color: #1b1b1b;
-    border-color: #2e2e2e;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
 .wishlist-lista .game-card:hover {
@@ -94,11 +83,6 @@ body.dark-mode .wishlist-lista .game-card {
     border-radius: 0 0 8px 8px;
 }
 
-body.dark-mode .hover-card {
-    background: rgba(0, 0, 0, 0.9);
-    color: #fff;
-}
-
 .wishlist-lista .game-card:hover .hover-card {
     transform: translateY(0%);
     opacity: 1;
@@ -120,9 +104,6 @@ body.dark-mode .hover-card {
     text-overflow: ellipsis;
 }
 
-body.dark-mode .hover-card p {
-    color: #ccc;
-}
 
 /* Botón eliminar */
 .wishlist-lista .btn-eliminar {
@@ -152,38 +133,3 @@ body.dark-mode .hover-card p {
     background-color: #e60000;
 }
 
-/* -------------------- RESPONSIVE -------------------- */
-@media (max-width: 1200px) {
-    .wishlist-lista {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
-@media (max-width: 992px) {
-    .wishlist-lista {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 768px) {
-    .wishlist-lista {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .wishlist-lista .game-card {
-        height: 300px;
-    }
-}
-
-@media (max-width: 480px) {
-    .wishlist-lista {
-        grid-template-columns: 1fr;
-        max-width: 320px;
-        margin: 0 auto;
-    }
-
-    .wishlist-lista .game-card {
-        height: 250px;
-        max-width: 100%;
-    }
-}
