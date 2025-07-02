@@ -64,9 +64,13 @@ document.addEventListener("DOMContentLoaded", () => {
             alert("Tu carrito está vacío.");
             return;
         }
-        alert("Compra realizada con éxito. ¡Gracias por tu compra!");
-        localStorage.removeItem("carrito");
-        renderCarrito();
+
+        const confirmar = confirm("¿Estás seguro de que deseas completar la compra?");
+        if (confirmar) {
+            alert("Compra realizada con éxito. ¡Gracias por tu compra!");
+            localStorage.removeItem("carrito");
+            renderCarrito();
+        }
     });
 
     renderCarrito();

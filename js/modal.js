@@ -21,7 +21,6 @@ export function abrirModal(imageData) {
     const precioRaw = parseFloat(imageData.dataset.price || "0");
     modalPrice.textContent = precioRaw === 0 ? "Gratis" : `S/ ${precioRaw.toFixed(2)}`;
 
-    // Esperamos un frame para que el DOM esté renderizado antes de buscar los botones
     requestAnimationFrame(() => {
         const btnAgregarCarrito = document.querySelector(".btn-cart");
         const btnWishlist = document.querySelector(".btn-wishlist");
@@ -38,39 +37,43 @@ export function abrirModal(imageData) {
                 const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
                 const yaExiste = carrito.some(j => j.titulo === titulo);
 
-                if (!yaExiste) {
-                    carrito.push({ titulo, imagen, precio, descripcion });
-                    localStorage.setItem("carrito", JSON.stringify(carrito));
-                    alert(`"${titulo}" se ha añadido al carrito`);
-                } else {
+                if (yaExiste) {
                     alert(`"${titulo}" ya está en el carrito`);
+                } else {
+                    const confirmacion = confirm(`¿Deseas añadir "${titulo}" al carrito?`);
+                    if (confirmacion) {
+                        carrito.push({ titulo, imagen, precio, descripcion });
+                        localStorage.setItem("carrito", JSON.stringify(carrito));
+                        alert(`"${titulo}" se ha añadido al carrito`);
+                        cerrarModal();
+                    }
                 }
-
-                cerrarModal();
             };
         }
 
         if (btnWishlist) {
             btnWishlist.onclick = () => {
-            const titulo = document.getElementById("modal-title").textContent;
-            const imagen = document.getElementById("modal-image").src;
-            const precioText = document.getElementById("modal-price").textContent;
-            const precio = precioText.replace("S/ ", "").trim();
-            const descripcion = document.getElementById("modal-description").textContent;
+                const titulo = document.getElementById("modal-title").textContent;
+                const imagen = document.getElementById("modal-image").src;
+                const precioText = document.getElementById("modal-price").textContent;
+                const precio = precioText.replace("S/ ", "").trim();
+                const descripcion = document.getElementById("modal-description").textContent;
 
-            let wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
+                let wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
 
-            const yaExiste = wishlist.some(j => j.titulo === titulo);
-            if (!yaExiste) {
-                wishlist.push({ titulo, imagen, precio, descripcion });
-                localStorage.setItem("wishlist", JSON.stringify(wishlist));
-                alert(`"${titulo}" se ha añadido a la lista de deseados`);
-            } else {
-                alert(`"${titulo}" ya está en la lista de deseados`);
-            }
-
-            cerrarModal();
-        };
+                const yaExiste = wishlist.some(j => j.titulo === titulo);
+                if (yaExiste) {
+                    alert(`"${titulo}" ya está en la lista de deseados`);
+                } else {
+                    const confirmacion = confirm(`¿Deseas añadir "${titulo}" a la lista de deseados?`);
+                    if (confirmacion) {
+                        wishlist.push({ titulo, imagen, precio, descripcion });
+                        localStorage.setItem("wishlist", JSON.stringify(wishlist));
+                        alert(`"${titulo}" se ha añadido a la lista de deseados`);
+                        cerrarModal();
+                    }
+                }
+            };
         }
     });
 }
@@ -84,7 +87,6 @@ export function cerrarModal() {
 export function prepararEventosModal() {
     document.querySelectorAll(".game-card").forEach((card) => {
         card.addEventListener("click", (e) => {
-            // Prevenir que haga algo si hicieron clic en un enlace .ver-mas
             if (e.target.closest(".ver-mas")) return;
 
             const img = card.querySelector("img");

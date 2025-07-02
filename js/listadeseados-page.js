@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const precio = document.createElement("p");
             precio.className = "precio";
             precio.textContent = (parseFloat(juego.precio) || 0) === 0 ? "Gratis" : `S/ ${parseFloat(juego.precio).toFixed(2)}`;
+
             const descripcion = document.createElement("p");
             descripcion.className = "descripcion";
             descripcion.textContent = (juego.descripcion || "").slice(0, 100) + "...";
@@ -43,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
             eliminarBtn.textContent = "Eliminar";
             eliminarBtn.addEventListener("click", (e) => {
                 e.stopPropagation(); // evita que el click en eliminar redirija
-                eliminarDeWishlist(index);
+                eliminarDeWishlist(index, juego.titulo);
             });
 
             card.appendChild(img);
@@ -61,11 +62,14 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    function eliminarDeWishlist(index) {
+    function eliminarDeWishlist(index, titulo) {
+        const confirmado = confirm(`¿Deseas eliminar "${titulo}" de tu lista de deseados?`);
+        if (!confirmado) return;
+
         wishlist.splice(index, 1);
         localStorage.setItem("wishlist", JSON.stringify(wishlist));
         renderWishlist();
     }
 
     renderWishlist();
-});  
+});

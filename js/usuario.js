@@ -34,7 +34,7 @@ export function inicializarUsuario() {
     if (loginIcon) {
         loginIcon.addEventListener("click", () => {
             localStorage.setItem("lastVisitedURL", window.location.href);
-            window.location.href = "../../login/principaliniciosesion/iniciarsesion.html";
+            window.location.href = "../../login/iniciarsesion.html";
         });
     }
 }
