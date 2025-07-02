@@ -9,8 +9,13 @@ if (!contenedor || !categoria) {
   fetch("../../juegos.json")
     .then(res => res.json())
     .then(data => {
-      const juegos = data[categoria] || [];
-      renderizarJuegosCategoria(juegos);
+      const todosLosJuegos = Object.values(data).flat();
+
+      const juegosFiltrados = todosLosJuegos.filter(juego =>
+        juego.categorias?.includes(categoria)
+      );
+
+      renderizarJuegosCategoria(juegosFiltrados);
     })
     .catch(err => {
       console.error("Error cargando juegos:", err);
@@ -25,22 +30,14 @@ function renderizarJuegosCategoria(juegos) {
     const card = document.createElement("div");
     card.classList.add("steam-card");
 
-    let precioHTML = "";
+    const precioNumerico = parseFloat(juego.precio);
+    const precio = isNaN(precioNumerico)
+      ? "S/ --"
+      : (precioNumerico === 0 ? "Gratis" : `S/ ${precioNumerico.toFixed(2)}`);
 
-    if (juego.precioOriginal && juego.precioFinal) {
-      precioHTML = `
-        <span class="discount-tag">-${juego.descuento || 0}%</span>
-        <div>
-          <span class="original-price">S/ ${juego.precioOriginal.toFixed(2)}</span><br>
-          <span class="final-price">S/ ${juego.precioFinal.toFixed(2)}</span>
-        </div>`;
-    } else if (juego.precio) {
-      precioHTML = `<span class="final-price">${juego.precio}</span>`;
-    } else {
-      precioHTML = `<span class="final-price">Precio no disponible</span>`;
-    }
 
-    // Si existe el campo detalle, usamos <a>, sino no lo envolvemos
+    const precioHTML = `<span class="final-price">${precio}</span>`;
+
     const contenidoTarjeta = `
       <div class="steam-card-tooltip">
         <p><strong>${juego.titulo}</strong></p>
@@ -48,7 +45,7 @@ function renderizarJuegosCategoria(juegos) {
         <p>⭐ ${juego.reseñas || "Sin reseñas"}</p>
       </div>
 
-      <img src="${juego.imagen}" alt="${juego.titulo}">
+      <img src="${juego.imagenBanner || juego.imagen}" alt="${juego.titulo}">
 
       <div class="steam-card-info">
         <h3>${juego.titulo}</h3>

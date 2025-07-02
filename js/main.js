@@ -54,15 +54,6 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch(err => console.error("Error cargando JSON:", err));
 
-    // Modal wishlist
-    const btnWishlist = document.querySelector(".btn-wishlist");
-    if (btnWishlist) {
-        btnWishlist.addEventListener("click", () => {
-            const titulo = document.getElementById("modal-title").textContent;
-            alert(`"${titulo}" se ha añadido a la lista de deseados`);
-        });
-    }
-
     const header = document.querySelector("header");
     if (header) {
         const updateHeaderScrollState = () => {

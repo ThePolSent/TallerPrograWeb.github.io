@@ -18,7 +18,8 @@ export function abrirModal(imageData) {
     modalDescription.textContent = imageData.dataset.description || "";
     modalButton.href = imageData.dataset.detailsLink || "#";
     modalTitle.textContent = imageData.dataset.title || "";
-    modalPrice.textContent = imageData.dataset.price ? `S/ ${imageData.dataset.price}` : "";
+    const precioRaw = parseFloat(imageData.dataset.price || "0");
+    modalPrice.textContent = precioRaw === 0 ? "Gratis" : `S/ ${precioRaw.toFixed(2)}`;
 
     // Esperamos un frame para que el DOM esté renderizado antes de buscar los botones
     requestAnimationFrame(() => {
@@ -50,26 +51,26 @@ export function abrirModal(imageData) {
         }
 
         if (btnWishlist) {
-            btnWishlist.addEventListener("click", () => {
-                const titulo = document.getElementById("modal-title").textContent;
-                const imagen = document.getElementById("modal-image").src;
-                const precioText = document.getElementById("modal-price").textContent;
-                const precio = precioText.replace("S/ ", "").trim();
-                const descripcion = document.getElementById("modal-description").textContent;
+            btnWishlist.onclick = () => {
+            const titulo = document.getElementById("modal-title").textContent;
+            const imagen = document.getElementById("modal-image").src;
+            const precioText = document.getElementById("modal-price").textContent;
+            const precio = precioText.replace("S/ ", "").trim();
+            const descripcion = document.getElementById("modal-description").textContent;
 
-                let wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
+            let wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
 
-                const yaExiste = wishlist.some(j => j.titulo === titulo);
-                if (!yaExiste) {
-                    wishlist.push({ titulo, imagen, precio, descripcion });
-                    localStorage.setItem("wishlist", JSON.stringify(wishlist));
-                    alert(`"${titulo}" se ha añadido a la lista de deseados`);
-                } else {
-                    alert(`"${titulo}" ya está en la lista de deseados`);
-                }
+            const yaExiste = wishlist.some(j => j.titulo === titulo);
+            if (!yaExiste) {
+                wishlist.push({ titulo, imagen, precio, descripcion });
+                localStorage.setItem("wishlist", JSON.stringify(wishlist));
+                alert(`"${titulo}" se ha añadido a la lista de deseados`);
+            } else {
+                alert(`"${titulo}" ya está en la lista de deseados`);
+            }
 
-                cerrarModal();
-            });
+            cerrarModal();
+        };
         }
     });
 }

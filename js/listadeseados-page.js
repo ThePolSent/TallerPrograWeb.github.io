@@ -29,8 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const precio = document.createElement("p");
             precio.className = "precio";
-            precio.textContent = `S/ ${parseFloat(juego.precio).toFixed(2)}`;
-
+            precio.textContent = (parseFloat(juego.precio) || 0) === 0 ? "Gratis" : `S/ ${parseFloat(juego.precio).toFixed(2)}`;
             const descripcion = document.createElement("p");
             descripcion.className = "descripcion";
             descripcion.textContent = (juego.descripcion || "").slice(0, 100) + "...";
