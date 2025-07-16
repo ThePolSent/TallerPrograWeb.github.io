@@ -1,0 +1,52 @@
+/* -------------------- FOOTER -------------------- */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    width: 100%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.75rem; 
+    line-height: 1.6;
+}
+
+footer nav {
+    margin: 10px 0;
+}
+
+footer nav a:visited {
+    color: white; 
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    display: inline-block;
+    font-size: 0.75rem; 
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+footer .metodos-pago {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer .metodos-pago img {
+    height: 36px;
+    width: auto;
+    transition: transform 0.2s ease;
+    filter: grayscale(40%) brightness(1.2);
+}
+
+footer .metodos-pago img:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}

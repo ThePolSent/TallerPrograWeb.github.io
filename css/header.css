@@ -1,0 +1,267 @@
+/* -------------------- HEADER -------------------- */
+header {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #1b1b1b, #111);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: box-shadow 0.3s ease, background 0.3s ease;
+    z-index: 2000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid rgba(29, 185, 84, 0.1);
+}
+
+header.scrolled {
+    background: linear-gradient(to right, #1b1b1b, #111);
+}
+
+/* -------------------- LOGO -------------------- */
+header .logo h1 {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 24px;
+    font-family: 'Press Start 2P', cursive;
+    background: linear-gradient(to right, #fff 66%, #fff 0%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+header .logo h1 img {
+    width: 50px;
+    margin-left: 470px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* -------------------- SIDEBAR -------------------- */
+.sidebar {
+    pointer-events: auto;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: linear-gradient(to bottom, #111, #1c1c1c);
+    padding-top: 80px;
+    transition: left 0.3s ease-in-out;
+    z-index: 999;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.6);
+    border-right: 1px solid rgba(29, 185, 84, 0.15);
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 0 10px;
+    transition: all 0.25s ease;
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+.sidebar ul li a:hover {
+    background-color: rgba(29, 185, 84, 0.15);
+    color: #1db954;
+    box-shadow: 0 0 10px #1db95455;
+    border-left: 4px solid #1db954;
+}
+
+/* -------------------- BOTONES COLAPSABLES -------------------- */
+.collapsible-btn {
+    width: calc(100% - 20px);
+    background: rgba(255, 255, 255, 0.04);
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 12px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    margin: 0 10px;
+    transition: all 0.25s ease;
+}
+
+.collapsible-btn:hover {
+    background-color: rgba(29, 185, 84, 0.15);
+    color: #1db954;
+    box-shadow: 0 0 10px #1db95455;
+}
+
+.collapsible-content {
+    display: none;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-top: 5px;
+    gap: 6px;
+    transition: max-height 0.3s ease;
+}
+
+.collapsible-section.open .collapsible-content {
+    display: flex;
+}
+
+/* Nuevo: agrupación ícono + texto alineados a la izquierda */
+.btn-icon-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: inherit;
+    color: inherit;
+}
+
+/* Íconos dentro del botón */
+.collapsible-btn ion-icon {
+    font-size: 18px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Chevron (último ícono) animado al abrir */
+.collapsible-section.open .collapsible-btn ion-icon:last-child {
+    transform: rotate(180deg);
+    color: #1db954;
+}
+
+/* Ícono izquierdo también se pinta en hover */
+.collapsible-btn:hover .btn-icon-text ion-icon {
+    color: #1db954;
+}
+
+.collapsible-btn span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.collapsible-btn.solo-icono {
+    justify-content: flex-start;
+}
+
+.collapsible-btn.solo-icono span {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+/* -------------------- BOTÓN HAMBURGUESA -------------------- */
+.btn-menu {
+    font-size: 28px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1001;
+    transition: color 0.25s ease;
+}
+
+.btn-menu:hover {
+    color: #1db954;
+}
+
+/* -------------------- NAVEGACIÓN PRINCIPAL -------------------- */
+header nav {
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 16px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.03);
+    transition: all 0.25s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(29, 185, 84, 0.15);
+    color: #1db954;
+    box-shadow: 0 0 8px #1db95455;
+}
+
+/* -------------------- SUBMENÚ -------------------- */
+.has-submenu {
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #1b1b1b;
+    padding: 10px 0;
+    min-width: 160px;
+    border-radius: 6px;
+    z-index: 100;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transform: translateY(-10px);
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+}
+
+.has-submenu.open .submenu {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.submenu li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.25s, color 0.25s;
+}
+
+.submenu li a:hover {
+    background-color: rgba(29, 185, 84, 0.15);
+    color: #1db954;
+}

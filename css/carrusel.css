@@ -1,0 +1,148 @@
+/* -------------------- CARRUSEL GENERAL -------------------- */
+.carrusel-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin: 40px 0;
+}
+
+.carrusel-track {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.videojuego {
+    flex-shrink: 0;
+    width: 250px;
+    height: auto;
+    position: relative;
+}
+
+.videojuego img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.videojuego:hover img {
+    filter: brightness(65%);
+    transform: scale(1.05);
+}
+
+/* Hover-card (si está activado) */
+.videojuego .hover-card {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 10px;
+    font-size: 0.75em;
+    transform: translateY(100%);
+    opacity: 0;
+    pointer-events: none;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.videojuego:hover .hover-card {
+    transform: translateY(0%);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Botones de navegación */
+.btn-izq,
+.btn-der {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+    user-select: none;
+    transition: background 0.3s ease;
+}
+
+.btn-izq:hover,
+.btn-der:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.btn-izq {
+    left: 5%;
+}
+
+.btn-der {
+    right: 5%;
+}
+
+/* -------------------- CARRUSEL POPULARES (UNO POR UNO) -------------------- */
+.carrusel-popular-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 30px 0;
+    border-radius: 12px;
+}
+
+.carrusel-popular-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.videojuego-popular {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-banner {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+    background-color: #000;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover efecto en banner */
+.videojuego-popular:hover .image-banner {
+    filter: brightness(65%);
+    transform: scale(1.05);
+}
+
+/* Texto superpuesto opcional */
+.overlay-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+}
+

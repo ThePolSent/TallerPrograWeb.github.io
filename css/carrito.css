@@ -1,0 +1,144 @@
+/* -------------------- CARRITO GENERAL -------------------- */
+.carrito-main {
+    padding: 100px 20px 40px;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5;
+    color: #000;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.carrito-main h2,
+.carrito-main h3 {
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+    padding-left: 10px;
+}
+
+/* -------------------- CONTENEDOR DE CARRITO -------------------- */
+.carrito-contenedor {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/* -------------------- LISTA DE JUEGOS -------------------- */
+.carrito-juegos {
+    flex: 1 1 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.carrito-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eaeaea;
+    border: 1px solid #ccc;
+    padding: 14px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, background-color 0.3s ease, border-color 0.3s ease;
+    gap: 15px;
+}
+
+.carrito-item:hover {
+    transform: scale(1.01);
+}
+
+.carrito-item img {
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    object-fit: cover;
+    background-color: #000;
+}
+
+.carrito-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.carrito-info h4 {
+    font-size: 1em;
+    margin: 0;
+}
+
+.carrito-info .precio {
+    font-size: 0.9em;
+    color: #1db954;
+    margin: 0;
+    font-weight: bold;
+}
+
+.carrito-info .descripcion {
+    font-size: 0.85em;
+    color: #555;
+    line-height: 1.2;
+    max-height: 2.4em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* -------------------- BOTÓN ELIMINAR -------------------- */
+.carrito-item button {
+    background-color: #ff3b3b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 14px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.carrito-item button:hover {
+    background-color: #e60000;
+}
+
+/* -------------------- RESUMEN -------------------- */
+.carrito-resumen {
+    flex: 1 1 30%;
+    background-color: #eaeaea;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: fit-content;
+    align-self: flex-start;
+}
+
+#total-carrito {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #1db954;
+}
+
+/* -------------------- BOTÓN FINALIZAR COMPRA -------------------- */
+#btn-comprar {
+    background-color: #484b4e;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+#btn-comprar:hover {
+    background-color: #1db954;
+    border-left: 4px solid #1db954;
+    padding-left: 28px;
+}

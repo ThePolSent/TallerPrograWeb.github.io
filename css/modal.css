@@ -1,0 +1,188 @@
+/* -------------------- MODAL BACKDROP -------------------- */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 3000;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.modal.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    animation: fadeIn 0.4s ease;
+}
+
+/* -------------------- CONTENIDO DEL MODAL -------------------- */
+.modal-content {
+    background-color: #fff;
+    color: #000;
+    width: 90%;
+    max-width: 600px;
+    max-height: 85vh;
+    overflow-y: auto;
+    border-radius: 12px;
+    padding: 22px 20px;
+    position: relative;
+    animation: slide-down 0.4s ease;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.65);
+    scrollbar-width: thin;
+    text-align: center;
+}
+
+.modal-content h2,
+.modal-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* -------------------- CUERPO DEL MODAL -------------------- */
+.modal-body {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+/* Imagen y botones superiores (columna izquierda) */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 260px;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* -------------------- PRECIO -------------------- */
+.game-price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #1db954;
+    margin-top: 12px;
+}
+
+/* -------------------- BOTONES SUPERIORES -------------------- */
+.btn-group-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    gap: 12px;
+}
+
+.btn-cart,
+.btn-wishlist {
+    flex: 1;
+    background-color: #484b4e;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.btn-cart:hover,
+.btn-wishlist:hover {
+    background-color: #1db954;
+    border-left: 4px solid #1db954;
+    padding-left: 16px;
+}
+
+/* -------------------- INFO DEL JUEGO (columna derecha) -------------------- */
+.info-container {
+    flex: 1;
+    min-width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.description {
+    background-color: #444;
+    color: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.15);
+    border: 1px solid #555;
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 0.93em;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+/* -------------------- BOTÓN DE DETALLES -------------------- */
+.btn-details {
+    background-color: #5a5d60;
+    width: 100%;
+    max-width: 220px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 0.95em;
+}
+
+.btn-details:hover {
+    background-color: #1db954;
+    border-left: 4px solid #1db954;
+    padding-left: 20px;
+}
+
+/* -------------------- BOTÓN CERRAR -------------------- */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    z-index: 10;
+}
+
+.close-btn:hover {
+    color: red;
+}
+
+/* -------------------- BLOQUEO DE SCROLL -------------------- */
+body.modal-open {
+    overflow: hidden;
+}
+/* -------------------- ANIMACIONES -------------------- */
+@keyframes slide-down {
+    from { transform: translateY(-20px); }
+    to { transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+} 

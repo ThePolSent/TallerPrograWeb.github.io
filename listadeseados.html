@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Playsent | Lista de Deseados</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/carrusel.css"/>
+    <link rel="stylesheet" href="/css/catalogo.css"/>
+    <link rel="stylesheet" href="/css/demas.css"/>
+    <link rel="stylesheet" href="/css/header.css"/>
+    <link rel="stylesheet" href="/css/footer.css"/>
+    <link rel="stylesheet" href="/css/modal.css"/>
+    <link rel="stylesheet" href="/css/responsive.css"/>
+    <link rel="stylesheet" href="../../../css/listadeseados.css"/>
+    <link rel="stylesheet" href="/css/darkmode.css"/>
+    <link rel="stylesheet" href="/css/usuario.css"/>
+</head>
+<body>
+<!-- Cabecera -->
+    <header>
+        <div class="logo">
+            <h1>
+            <img src="../../contenido/imagenes/logo/logojoystick.png" alt="Logo de PlaySent">
+            <a href="../../index.html">PlaySent</a>
+            </h1>
+        </div>
+
+        <!-- Botón Menú Hamburguesa (Nuevo) -->
+        <button id="menu-toggle" class="btn-menu" aria-label="Abrir menú">
+            <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+        <!-- Contenedor de acciones -->
+        <div class="actions">
+            <!-- Botón Audio -->
+            <button id="audio-toggle" class="btn-audio">
+                <ion-icon id="audio-icon" name="volume-mute-outline"></ion-icon>
+            </button>
+            <audio id="audio-player" src="../../../contenido/audio/audio-principal/principal.mp3"></audio>
+
+            <!-- Botón Modo Oscuro -->
+            <button id="theme-toggle" class="btn-theme">
+                <ion-icon id="theme-icon" name="moon-outline"></ion-icon>
+            </button>
+
+            <!-- Botón Iniciar Sesión / Registro -->
+            <a href="javascript:redirectToLogin()" id="login-icon">
+                <ion-icon name="person-circle-outline"></ion-icon>
+            </a>
+
+            <!-- Menú usuario (dentro del mismo contenedor) -->
+            <div class="user-menu has-submenu" id="userMenu" style="display: none;">
+                <button id="userButton">
+                    <ion-icon name="person-circle-outline"></ion-icon>
+                </button>
+                <div class="submenu">
+                    <p id="usernameDisplay"></p>
+                    <button id="logoutButton">Cerrar sesión</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sidebar deslizable -->
+    <nav id="sidebar" class="sidebar">
+    <ul>
+        <li class="collapsible-section">
+            <button class="collapsible-btn solo-icono" onclick="location.href='/index.html'">
+                <span><ion-icon name="home-outline"></ion-icon> Inicio</span>
+            </button>
+        </li>
+            <li class="collapsible-section">
+            <button class="collapsible-btn solo-icono" onclick="location.href='/carrito.html'">
+                <span><ion-icon name="cart-outline"></ion-icon> Carrito</span>
+            </button>
+        </li>
+
+        <li class="collapsible-section">
+            <button class="collapsible-btn solo-icono" onclick="location.href='/listadeseados.html'">
+                <span><ion-icon name="heart-outline"></ion-icon> Wishlist</span>
+            </button>
+        </li>
+
+        <li class="collapsible-section">
+        <button class="collapsible-btn">
+            <span><ion-icon name="grid-outline"></ion-icon> Categorías</span>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+        </button>
+        <div class="collapsible-content">
+            <a href="/categorias/accion.html"><ion-icon name="flash-outline"></ion-icon> Acción</a>
+            <a href="/categorias/aventura.html"><ion-icon name="compass-outline"></ion-icon> Aventura</a>
+            <a href="/categorias/simulacion.html"><ion-icon name="hardware-chip-outline"></ion-icon> Simulación</a>
+            <a href="/categorias/estrategia.html"><ion-icon name="analytics-outline"></ion-icon> Estrategia</a>
+            <a href="/categorias/mundoabierto.html"><ion-icon name="earth-outline"></ion-icon> Mundo Abierto</a>
+        </div>
+        </li>
+
+        <li class="collapsible-section">
+        <button class="collapsible-btn">
+            <span><ion-icon name="share-social-outline"></ion-icon> Redes Sociales</span>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+        </button>
+        <div class="collapsible-content">
+            <a href="https://twitter.com"><ion-icon name="logo-twitter"></ion-icon> Twitter</a>
+            <a href="https://facebook.com"><ion-icon name="logo-facebook"></ion-icon> Facebook</a>
+            <a href="https://instagram.com"><ion-icon name="logo-instagram"></ion-icon> Instagram</a>
+        </div>
+        </li>
+    </ul>
+    </nav>
+
+    <!-- Main Wishlist -->
+    <main class="wishlist-main" style="padding: 100px 20px 40px;">
+        <h2 style="text-align:center;">💖 Tu lista de deseados</h2>
+        <div id="wishlist-lista" class="wishlist-lista"></div>
+        <p id="wishlist-empty" style="text-align:center; font-size:1.2rem; margin-top: 30px; display:none;">
+            No tienes juegos en tu lista de deseados.
+        </p>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-principal">
+        <div class="footer-contenido">
+            <p>&copy; PlaySent. Todos los derechos reservados.</p>
+
+            <div class="footer-links">
+                <a href="#">Política de Privacidad</a>
+                <span>|</span>
+                <a href="#">Términos y Condiciones</a>
+            </div>
+
+            <div class="metodos-pago">
+                <img src="/contenido/imagenes/footer/yape.png" alt="Yape" title="Yape">
+                <img src="/contenido/imagenes/footer/bcp.png" alt="BCP" title="BCP">
+                <img src="/contenido/imagenes/footer/visa.png" alt="Visa" title="Visa">
+                <img src="/contenido/imagenes/footer/paypal.png" alt="PayPal" title="PayPal">
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/js/listadeseados-page.js"></script>
+    <script src="/js/moda-carrito.js"></script>
+    <script type="module" src="./js/main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>  

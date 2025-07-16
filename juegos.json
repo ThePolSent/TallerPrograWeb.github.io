@@ -1,0 +1,711 @@
+{
+    "accion":[
+        {
+            "id": "codbo2" ,
+            "titulo": "Call of Duty: Black Ops II" ,
+            "año": "2012" ,
+            "imagenBanner":"https://i.pinimg.com/736x/7f/f7/3d/7ff73df7a6b0f573e50c0042641069ea.jpg" ,
+            "imagen":"https://i.pinimg.com/736x/d1/8f/62/d18f62a446033026053339394944c1fb.jpg" ,
+            "descripcion": "Call of Duty: Black Ops II sigue dos líneas temporales: la Guerra Fría en los años 80, con Alex Mason enfrentándose a un enemigo soviético,  y el futuro distópico de 2025, donde su hijo, David Mason, lucha contra el terrorista Raul Menendez, quien busca desestabilizar el mundo mediante ciberataques.  Las decisiones del jugador afectan el curso de la historia, lo que lleva a diferentes finales y desenlaces en una narrativa de guerra y tecnología.",
+            "detalle":"../../../../detallejuegos/detalle-accion/codbo2.html",
+            "precio":"217.00",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "cs2" ,
+            "titulo": "Counter-Strike 2" ,
+            "año": "2023" ,
+            "imagen":"https://i.pinimg.com/736x/a5/c5/29/a5c529a21b85c978bd4e1874762d29d3.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/736x/a8/1c/37/a81c37182ab0545687f6ae233d4a262d.jpg",
+            "descripcion": "Counter-Strike 2 es un juego de disparos en primera persona basado en equipos, donde los jugadores se dividen en dos bandos: los terroristas, que intentan plantar una bomba o tomar rehenes, y los antiterroristas, que deben evitarlo. El juego se centra en la estrategia, la cooperación en equipo y la habilidad individual, ofreciendo partidas rápidas y competitivas. Counter-Strike 2 es la secuela de Counter-Strike, mejorando la jugabilidad, los gráficos y añadiendo nuevas características mientras conserva la esencia del juego original.",
+            "detalle":"../../../../detallejuegos/detalle-accion/cs2.html",
+            "precio":"0",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "gowragnarok" ,
+            "titulo": "God of War Ragnarok" ,
+            "año": "2018" ,
+            "imagen":"https://i.pinimg.com/736x/c4/34/72/c4347248cba1e95286e35bc442111c50.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/736x/ce/8b/83/ce8b8349a2b94a043c2e3e2a1f2e32e4.jpg",
+            "descripcion": "God of War (2018) sigue a Kratos, un guerrero espartano que ahora vive en los reinos nórdicos junto a su hijo Atreus. Tras la muerte de su esposa, emprenden un viaje para esparcir sus cenizas en la montaña más alta, enfrentándose a dioses, monstruos y su propio pasado. La historia mezcla acción, mitología nórdica y una profunda relación padre-hijo en un mundo lleno de desafíos y secretos. ",
+            "detalle":"../../../../detallejuegos/detalle-accion/gowragnarok.html",
+            "precio":"199.00",
+            "categorias": [
+                "accion",
+                "aventura",
+                "popular"
+            ]
+        },
+        {
+            "id": "doometernal" ,
+            "titulo": "Doom Eternal" ,
+            "año": "2020" ,
+            "imagen":"https://i.pinimg.com/736x/49/6d/8f/496d8f4a6009aca8bc03131098f3d533.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/736x/01/36/00/013600d4d84c1a6534da4599648c5f88.jpg",
+            "descripcion": "Doom Eternal continúa la lucha del Doom Slayer contra las fuerzas del Infierno que han invadido la Tierra, desatando el caos y la destrucción en todo el planeta. A lo largo de la historia, el Slayer viaja por diferentes mundos para detener la invasión demoníaca, enfrentándose a hordas de enemigos con un arsenal brutal y un ritmo frenético. A medida que avanza, descubre secretos sobre su origen y su conexión con los demonios. La narrativa combina acción intensa con mitología oscura, en una batalla épica por la supervivencia de la humanidad y el destino del universo. ",
+            "detalle":"../../../../detallejuegos/detalle-accion/doometernal.html",
+            "precio":"119.00",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "devilmaycry5" ,
+            "titulo": "Devil May Cry 5" ,
+            "año": "2019" ,
+            "imagen":"https://i.pinimg.com/736x/76/f6/b0/76f6b0e9659ab189f5dd994e4ef471e5.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/736x/f0/9e/23/f09e2358db06342c90826e8ea326d892.jpg",
+            "descripcion": "Devil May Cry 5 sigue a tres cazadores de demonios: Nero, Dante y V, que luchan contra una invasión demoníaca provocada por el crecimiento de un misterioso árbol infernal en Red Grave City. Cada personaje aporta un estilo de combate único mientras enfrentan hordas de enemigos y desvelan secretos del pasado. Nero busca respuestas sobre su brazo demoníaco perdido, Dante enfrenta su destino como hijo de Sparda, y V oculta un vínculo profundo con el enemigo. La historia mezcla acción intensa, humor y drama sobrenatural, en una batalla por salvar el mundo del caos.",
+            "detalle":"../../../../detallejuegos/detalle-accion/devilmaycry5.html",
+            "precio":"69.00",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "residentevil4remake" ,
+            "titulo": "Resident Evil 4 Remake" ,
+            "año": "2023" ,
+            "imagen":"https://i.pinimg.com/736x/f1/b8/65/f1b865229294c81a2827f807012052f8.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/736x/67/51/8d/67518d669d51b80ce51a3e0854108253.jpg",
+            "descripcion": "Resident Evil 4 sigue a Leon S. Kennedy, un agente especial enviado a un remoto pueblo europeo para rescatar a Ashley Graham, la hija del presidente de EE.UU. Allí descubre que los habitantes han sido infectados por un parásito conocido como Las Plagas, controlado por un culto siniestro. Leon deberá enfrentarse a enemigos mutados, resolver acertijos y sobrevivir a múltiples amenazas mientras intenta cumplir su misión. La historia combina acción intensa, terror y tensión constante, redefiniendo el género con un enfoque más dinámico y cinematográfico.",
+            "detalle":"../../../../detallejuegos/detalle-accion/residentevil4remake.html",
+            "precio":"90.00",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "uncharted4" ,
+            "titulo": "Uncharted 4" ,
+            "año": "2016" ,
+            "imagen":"https://i.pinimg.com/736x/ed/c0/7f/edc07f0993fbf3c50cec24147ec10ec8.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/736x/78/fa/e8/78fae858d9b05cf8335c17141f3e2018.jpg",
+            "descripcion": "Uncharted 4: A Thief's End narra la última aventura de Nathan Drake, quien ha dejado atrás la vida de cazador de tesoros. Cuando su hermano Sam, dado por muerto, reaparece en busca de ayuda, Nathan se ve arrastrado nuevamente al mundo de la exploración y el peligro. Juntos, emprenden la búsqueda del tesoro perdido del capitán Henry Avery, enfrentándose a piratas, rivales y desafíos personales. La historia combina acción, drama y exploración en escenarios impresionantes, mientras se profundiza en los lazos familiares y el costo de la obsesión.",
+            "detalle":"../../../../detallejuegos/detalle-accion/uncharted4.html",
+            "precio":"63.00",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "callofdutymw2" ,
+            "titulo": "Call of Duty: Modern Warfare 2" ,
+            "año": "2022" ,
+            "imagen":"https://i.pinimg.com/736x/aa/11/18/aa11186dc69287ff7192992845d8585b.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/736x/19/3f/4c/193f4c0c7c31e547acadca2a85504205.jpg",
+            "descripcion": "Call of Duty: Modern Warfare 2 sigue a un grupo de élite de la Fuerza de Operaciones Especiales liderada por el capitán Soap MacTavish, en una misión para detener a un líder terrorista ruso, Makarov, que amenaza con desestabilizar el orden mundial. La historia aborda la lucha global contra el terrorismo, con intensas batallas en diversas ubicaciones del mundo. Mientras tanto, el equipo se enfrenta a traiciones, alianzas rotas y una serie de eventos que ponen a prueba su lealtad y moralidad en un conflicto cada vez más personal.",
+            "detalle":"../../../../detallejuegos/detalle-accion/callofdutymw2.html",
+            "precio":"255.00",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "sekiroshadowsdietwice" ,
+            "titulo": "Sekiro: Shadows Die Twice" ,
+            "año": "2019" ,
+            "imagen":"https://i.pinimg.com/736x/0f/36/f8/0f36f8e8301782de08d1d6f93d4f91c9.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/736x/fb/e5/22/fbe5225d0d30b4a4250cbd16306311ee.jpg",            
+            "descripcion": "Sekiro: Shadows Die Twice sigue la historia de un samurái llamado Wolf, que busca vengar la muerte de su señor y recuperar a un joven noble que ha sido secuestrado. Ambientado en un Japón feudal, el juego mezcla acción y sigilo en un entorno lleno de desafíos. A medida que avanza, Wolf se enfrenta a enemigos letales y seres mitológicos, utilizando una mecánica de combate de alto riesgo y alta recompensa. Con una narrativa profunda sobre el honor, la venganza y la redención, el jugador debe tomar decisiones difíciles mientras explora un mundo brutal y fascinante.",
+            "detalle":"../../../../detallejuegos/detalle-accion/sekiroshadowsdietwice.html",
+            "precio":"217.00",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "metalGearRisingRevengeance" ,
+            "titulo": "Metal Gear Rising: Revengeance" ,
+            "año": "2013" ,
+            "imagen":"https://i.pinimg.com/736x/fe/5f/16/fe5f168cf2487f48374a620adedbe082.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/d6/b9/c2/d6b9c2a18a577e0cd00ed1421e398110.jpg",
+            "descripcion": "Metal Gear Rising: Revengeance se centra en Raiden, un cyborg samurái que trabaja como mercenario para una organización privada de seguridad. Después de un violento ataque a su equipo, Raiden se ve envuelto en una conspiración global que involucra a poderosas corporaciones, terroristas y secretos del pasado. A lo largo del juego, Raiden lucha con una espada de alta frecuencia, enfrentándose a enemigos mecánicos y humanos en combates rápidos y desafiantes. La narrativa explora temas como la venganza, la moralidad y la naturaleza de la guerra, mientras Raiden busca la justicia y la redención en un mundo lleno de corrupción y caos.",
+            "detalle":"../../../../detallejuegos/detalle-accion/metalGearRisingRevengeance.html",
+            "precio":"99.90",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+            
+        }
+    ],
+    "aventura":[
+        {
+            "id": "tlous" ,
+            "titulo": "The Last of Us" ,
+            "año": "2013" ,
+            "imagen":"https://i.pinimg.com/736x/4c/00/c8/4c00c8895cac1c65ceb3b2ae3f1e3f7e.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/76/8c/b7/768cb7c0277fd0277ac90d2b9c45124d.jpg",
+            "descripcion": "The Last of Us sigue a Joel, un hombre endurecido por la pérdida, y Ellie, una adolescente inmune a un hongo mortal que ha devastado a la humanidad. Juntos cruzan un Estados Unidos postapocalíptico en busca de una posible cura, enfrentando peligros tanto humanos como infectados. La historia combina acción, supervivencia y una fuerte carga emocional, explorando el vínculo entre los protagonistas en un mundo brutal y desesperado.",
+            "detalle":"../../../../detallejuegos/detalle-aventura/tlous.html",
+            "precio":"199.90",
+            "categorias": [
+                "accion",
+                "aventura",
+                "popular"
+            ]
+        },
+        {
+            "id": "tlous2" ,
+            "titulo": "The Last of Us Part II" ,
+            "año": "2020" ,
+            "imagen":"https://i.pinimg.com/736x/91/b8/a4/91b8a4d87176bce81989f7fbed39d6ee.jpg" ,
+            "imagenBanner":"",
+            "descripcion": "The Last of Us Part II sigue a Ellie varios años después de los eventos del primer juego, en un mundo aún devastado por la infección. Impulsada por la ira y el deseo de venganza tras una tragedia personal, Ellie emprende un viaje oscuro y emocional que la enfrenta a las consecuencias de sus actos. La historia explora temas como el odio, la pérdida y la redención, en una narrativa intensa y cargada de tensión.",
+            "detalle":"../../../../detallejuegos/detalle-aventura/tlous2.html",
+            "precio":"159.90",
+            "categorias": [
+                "accion",
+                "aventura",
+                "popular"
+            ]
+        },
+        {
+            "id": "hollowknight" ,
+            "titulo": "Hollow Knight" ,
+            "año": "2018" ,
+            "imagen":"https://i.pinimg.com/736x/31/7d/e6/317de68dc9f19c32b773bc9df93cef9b.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/736x/fd/f4/72/fdf472f3a31f0b40c1a81c982312d469.jpg",
+            "descripcion": "Hollow Knight es un juego de aventuras y exploración en 2D que sigue a un misterioso guerrero sin nombre que viaja al reino subterráneo de Hallownest. Allí, debe enfrentarse a criaturas corrompidas, descubrir secretos ocultos y desentrañar una antigua tragedia que amenaza con destruirlo todo. Con una atmósfera oscura, combates desafiantes y un mundo interconectado, el juego ofrece una experiencia profunda y emotiva.",
+            "detalle":"detallejuegos/detalle-aventura/hollowknight.html",
+            "precio":"33.50",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "redeadredeptionII" ,
+            "titulo": "Red Dead Redemption II" ,
+            "año": "2018" ,
+            "imagen":"https://i.pinimg.com/736x/d2/a4/5c/d2a45cc2083abc8bf1c21e47e0b29c3a.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/1a/80/ac/1a80acca774710f694630de7c44404d9.jpg",
+            "descripcion": "Red Dead Redemption II sigue la historia de Arthur Morgan, un forajido veterano y miembro de la banda de Dutch van der Linde, mientras lucha por sobrevivir en el ocaso del Viejo Oeste. Ambientado en 1899, el juego muestra la decadencia del estilo de vida criminal, el conflicto entre la lealtad a la banda y los ideales personales de Arthur. A medida que las tensiones aumentan y las autoridades se acercan, Arthur debe tomar decisiones que definirán su destino. La narrativa mezcla acción, drama y exploración en un mundo abierto vibrante, con temas de redención, honor y el peso del pasado.",
+            "detalle":"../../../../detallejuegos/detalle-aventura/redeadredeptionII.html",
+            "precio":"219.90",
+            "categorias": [
+                "accion",
+                "aventura",
+                "mundoabierto",
+                "popular"
+            ]
+        },
+        {
+            "id": "assasinscreedvalhalla" ,
+            "titulo": "Assasin's Creed Valhalla" ,
+            "año": "2018" ,
+            "imagen":"https://i.pinimg.com/736x/88/03/e2/8803e2090ffd416e3e19abc1fcab7eda.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/736x/f3/89/03/f389032e4dfd2707e87dc7574ec3a60f.jpg",
+            "descripcion": "Assassin’s Creed Valhalla sigue a Eivor, un guerrero vikingo que lidera a su clan desde Noruega hacia Inglaterra durante el siglo IX, en busca de un nuevo hogar. A medida que establecen asentamientos, Eivor se enfrenta a reinos sajones, traiciones y una guerra secreta entre los Ocultos y los Templarios. La historia combina batallas brutales, alianzas políticas y exploración, mientras Eivor busca forjar su destino en un mundo lleno de mitología nórdica y conflictos de poder. Las decisiones del jugador influyen en el desarrollo de la narrativa y el destino de su pueblo.",
+            "detalle":"../../../../detallejuegos/detalle-aventura/assasinscreedvalhalla.html",
+            "precio":"199.99",
+            "categorias": [
+                "accion",
+                "aventura",
+                "mundoabierto"
+            ]
+        },
+        {
+            "id": "lifeisstrange" ,
+            "titulo": "Life is Strange" ,
+            "año": "2015" ,
+            "imagen":"https://i.pinimg.com/736x/87/c8/8e/87c88e812d0c741ae5440d223beb7e75.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/a6/32/e8/a632e863381438c8197ab8430cb7c64c.jpg",
+            "descripcion": "The Last of Us sigue a Joel, un hombre endurecido por la pérdida, y Ellie, una adolescente inmune a un hongo mortal que ha devastado a la humanidad. Juntos cruzan un Estados Unidos postapocalíptico en busca de una posible cura, enfrentando peligros tanto humanos como infectados. La historia combina acción, supervivencia y una fuerte carga emocional, explorando el vínculo entre los protagonistas en un mundo brutal y desesperado.",
+            "detalle":"../../../../detallejuegos/detalle-aventura/lifeisstrange.html",
+            "precio":"199.99",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "firewatch" ,
+            "titulo": "Firewatch" ,
+            "año": "2016" ,
+            "imagen":"https://i.pinimg.com/736x/ad/9b/26/ad9b26c4bb1e604755c19f16d42f1861.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/cd/d3/fe/cdd3fe0eda0acf4791ee5e59129a3580.jpg",
+            "descripcion": "Firewatch narra la historia de Henry, un hombre que acepta un trabajo como guardabosques en la soledad del Bosque Nacional de Shoshone, Wyoming, en 1989. Su única conexión es su supervisora Delilah, con quien se comunica por radio. A medida que explora el entorno y atiende tareas rutinarias, Henry descubre sucesos extraños que lo llevan a una trama de misterio, secretos y aislamiento. La historia gira en torno a la pérdida, la confianza y las decisiones personales, mientras el jugador construye la relación entre ambos personajes en un entorno visualmente inmersivo.",
+            "detalle":"../../../../detallejuegos/detalle-aventura/firewatch.html",
+            "precio":"43.00",
+            "categorias": [
+                "aventura"
+            ]
+        },
+        {
+            "id": "tombraider" ,
+            "titulo": "Tomb Raider" ,
+            "año": "2013" ,
+            "imagen":"https://i.pinimg.com/736x/92/c8/70/92c8704089d45b7b53663c6b3b2ddcbf.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/d5/9e/23/d59e23ba822357654dc661992054ebd8.jpg",
+            "descripcion": "Tomb Raider sigue a una joven Lara Croft en su primera gran aventura, tras naufragar en una isla misteriosa del Triángulo del Dragón. Rodeada de peligros, Lara debe evolucionar de una arqueóloga inexperta a una superviviente decidida. Mientras busca a su tripulación y lucha contra una secta violenta, descubre secretos antiguos que revelan un poder oculto en la isla. Con desafíos físicos, acertijos y combates intensos, la historia explora el origen de la heroína y su transformación emocional en medio de la adversidad.",
+            "detalle":"../../../../detallejuegos/detalle-aventura/tombraider.html",
+            "precio":"49.90",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "oriandblighteforest" ,
+            "titulo": "Ori and the Blind Forest" ,
+            "año": "2015" ,
+            "imagen":"https://i.pinimg.com/736x/19/fb/81/19fb8170ff721c7cd900ffa541ed755a.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/13/2b/e1/132be1300cca4323095f71384ab7ba2f.jpg",
+            "descripcion": "Tori and the Blind Forest cuenta la emotiva historia de Ori, un pequeño espíritu guardián, y Sein, la luz y voz del Árbol del Espíritu. Tras una catástrofe que arrasa el bosque de Nibel, Ori emprende un viaje para restaurar el equilibrio y salvar su hogar. A medida que avanza, enfrenta criaturas peligrosas, resuelve acertijos ambientales y descubre secretos sobre su pasado y el ciclo de la vida. Con una narrativa conmovedora, una estética pintada a mano y una banda sonora emocional, el juego combina plataformas desafiantes con una historia de esperanza, pérdida y redención.",
+            "detalle":"../../../../detallejuegos/detalle-aventura/oriandblighteforest.html",
+            "precio":"",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "aplaguetalerequiem" ,
+            "titulo": "A Plague Tale: Requiem" ,
+            "año": "2022" ,
+            "imagen":"https://i.pinimg.com/736x/23/b9/42/23b94242e09a2e1c95741477aa9a54ad.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/f1/9d/37/f19d37f1bd8a9f4caf13309e500b3f10.jpg",
+            "descripcion": "A Plague Tale: Requiem continúa la historia de Amicia y su hermano Hugo, quienes huyen al sur de Francia en busca de una vida tranquila lejos de la plaga y la Inquisición. Sin embargo, los poderes de Hugo siguen creciendo y una nueva amenaza relacionada con la Macula emerge, trayendo consigo una devastadora plaga de ratas. En su lucha por sobrevivir, los hermanos enfrentan desafíos brutales, dilemas morales y enemigos implacables. Con una narrativa emocional, entornos impresionantes y una evolución en la jugabilidad sigilosa y estratégica, el juego profundiza en el vínculo fraternal en un mundo oscuro y despiadado.",
+            "detalle":"../../../../detallejuegos/detalle-aventura/aplaguetalerequiem.html",
+            "precio":"149.90",
+            "categorias": [
+                "accion",
+                "aventura"
+            ]
+        }
+    ],
+    "simulacion":[
+        {
+            "id": "stardewvalley" ,
+            "titulo": "Stardew Valley" ,
+            "año": "2016" ,
+            "imagen":"https://i.pinimg.com/736x/93/57/62/935762480e67e4b749994a315b4f7e8f.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/05/5f/4e/055f4e2535b72801dd45990e46d2e86f.jpg",
+            "descripcion": "Stardew Valley es un juego de simulación en el que el jugador hereda una granja en ruinas y debe restaurarla a su antigua gloria. A lo largo del juego, los jugadores cultivan, crían animales, exploran minas y forjan relaciones con los habitantes del pueblo. La historia se centra en la vida en la granja, pero también incluye elementos de aventura y misterio. Con un enfoque relajante y de ritmo lento, Stardew Valley ofrece un mundo abierto lleno de actividades y posibilidades.",
+            "detalle":"detallejuegos/detalle-simulacion/stardewvalley.html",
+            "precio":"39.95",
+            "categorias": [
+                "simulacion",
+                "aventura"
+            ]
+        },
+        {
+            "id": "skylines" ,
+            "titulo": "Skilines" ,
+            "año": "2015" ,
+            "imagen":"https://i.pinimg.com/736x/49/77/7d/49777dde93ea8caf5702d91550ed5521.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/d5/41/c0/d541c0c451f0ada378865381f7b758a7.jpg",
+            "descripcion": "Cities: Skylines es un juego de simulación de construcción de ciudades que pone al jugador en el rol de alcalde y urbanista. El objetivo es desarrollar una metrópolis funcional desde cero, gestionando aspectos como el tráfico, servicios públicos, zonas residenciales, comerciales e industriales. El juego destaca por su nivel de realismo, incluyendo sistemas de impuestos, planificación urbana, medio ambiente y bienestar ciudadano. Con herramientas detalladas y una comunidad activa que ofrece mods y contenido adicional, Cities: Skylines ofrece una experiencia profunda y personalizable para los amantes de la gestión y la estrategia urbana.",
+            "detalle":"../../../../detallejuegos/detalle-simulacion/skylines.html",
+            "precio":"173.95",
+            "categorias": [
+                "simulacion",
+                "estrategia"
+            ]
+        },
+        {
+            "id": "thesims4" ,
+            "titulo": "The Sims 4" ,
+            "año": "2014" ,
+            "imagen":"https://i.pinimg.com/736x/87/0e/1f/870e1f0427082552668f4a5224fc42ac.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/736x/42/6b/16/426b166ecf5d89d6be80be7ee17bbbf4.jpg",
+            "descripcion": "The Sims 4 es un juego de simulación de vida que permite a los jugadores crear y controlar personajes en un mundo virtual donde pueden desarrollar relaciones, construir casas y vivir distintas historias. Con un sistema de emociones más profundo y herramientas creativas mejoradas, los Sims reaccionan de forma más realista a su entorno y decisiones. Los jugadores pueden personalizar a fondo la apariencia, personalidad y aspiraciones de sus Sims, así como diseñar hogares únicos. La experiencia se expande con múltiples paquetes y contenido adicional que agregan nuevas actividades, profesiones y mundos por descubrir.",
+            "detalle":"../../../../detallejuegos/detalle-simulacion/thesims4.html",
+            "precio":"0",
+            "categorias": [
+                "simulacion"
+            ]
+        },
+        {
+            "id": "planetzoo" ,
+            "titulo": "Planet Zoo" ,
+            "año": "2019" ,
+            "imagen":"https://i.pinimg.com/736x/b9/37/9d/b9379d741930976c70cf15fefb9ddac0.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/7e/25/6c/7e256c7a27cc7a6bebccfba48449eb66.jpg",
+            "descripcion": "Planet Zoo es un simulador de gestión de zoológicos donde el jugador construye y administra un parque lleno de vida salvaje. Con un enfoque en el bienestar animal, el juego permite diseñar hábitats detallados, cuidar las necesidades físicas y emocionales de cada especie, y supervisar el comportamiento social y ecológico. Además de la gestión financiera, los jugadores deben abordar temas como la conservación, la educación ambiental y la sostenibilidad. Con gráficos realistas y un profundo nivel de personalización, Planet Zoo ofrece una experiencia inmersiva para los amantes de la naturaleza y la simulación estratégica.",
+            "detalle":"../../../../detallejuegos/detalle-simulacion/planetzoo.html",
+            "precio":"103.66",
+            "categorias": [
+                "estrategia",
+                "simulacion"
+            ]
+        },
+        {
+            "id": "planetcoaster2" ,
+            "titulo": "Planet Coaster 2" ,
+            "año": "2023" ,
+            "imagen":"https://i.pinimg.com/736x/8b/eb/d6/8bebd6a1007cab6d33e7ec5c2acfbccb.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/736x/97/32/19/97321960d4ce1285d0086cb2a55fa8a3.jpg",
+            "descripcion": "Planet Coaster 2 lleva la construcción y gestión de parques de atracciones al siguiente nivel, permitiendo a los jugadores diseñar desde montañas rusas extremas hasta complejos parques temáticos. Con herramientas más intuitivas y detalladas, puedes personalizar cada aspecto del parque, desde la decoración hasta las rutas de los visitantes. La simulación se enfoca en la experiencia del cliente, la rentabilidad del negocio y la creatividad ilimitada. Además, incluye nuevas opciones climáticas, integración multijugador y desafíos dinámicos que hacen evolucionar constantemente tu parque. Es ideal para quienes disfrutan crear y gestionar con precisión.",
+            "detalle":"../../../../detallejuegos/detalle-simulacion/planetcoaster2.html",
+            "precio":"105.00",
+            "categorias": [
+                "simulacion",
+                "estrategia"
+            ]
+        },
+        {
+            "id": "farmingsimulator2" ,
+            "titulo": "Farming Simulator 22" ,
+            "año": "2021" ,
+            "imagen":"https://i.pinimg.com/736x/59/ae/9c/59ae9ccff1ff1880843de001400f62ac.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/b0/91/ad/b091adfebcbf0cf4c926b4ea9a9cf204.jpg",
+            "descripcion": "Farming Simulator 22 te ofrece la oportunidad de gestionar tu propia granja en un mundo abierto, donde podrás sembrar, cosechar, criar animales y operar una variedad de maquinaria agrícola realista. El juego incluye un sistema de estaciones dinámicas, permitiendo a los jugadores experimentar las estaciones del año, lo que influye en la cosecha y los animales. Además, puedes expandir tu granja y trabajar en proyectos agrícolas más complejos, como la producción de vino o la silvicultura. Con una amplia gama de vehículos y herramientas de marcas auténticas, Farming Simulator 22 ofrece una experiencia realista y detallada para quienes buscan sumergirse en el mundo rural.",
+            "detalle":"../../../../detallejuegos/detalle-simulacion/farmingsimulator2.html",
+            "precio":"107.40",
+            "categorias": [
+                "simulacion",
+                "mundoabierto"
+            ]
+        },
+        {
+            "id": "powerwashersimulator" ,
+            "titulo": "PowerWash Simulator" ,
+            "año": "2021" ,
+            "imagen":"https://i.pinimg.com/736x/8a/63/32/8a633257479afe64d7eb8adbd0572313.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/736x/fe/72/18/fe7218136345d0ee8872d74dabdd1271.jpg",
+            "descripcion": "PowerWash Simulator es un juego relajante en el que te conviertes en un experto en limpieza de alta presión. Con una potente hidrolavadora, debes limpiar todo tipo de superficies, desde patios y vehículos hasta edificios completos y monumentos. El juego ofrece una experiencia de satisfacción visual al eliminar suciedad y manchas acumuladas, mientras desbloqueas nuevas herramientas y equipos para hacerlo más eficiente. A medida que avanzas, puedes enfrentarte a desafíos más grandes y complejos, todo mientras disfrutas de una atmósfera tranquila y sin estrés, ideal para quienes buscan una experiencia de juego relajante y gratificante.",
+            "detalle":"../../../../detallejuegos/detalle-simulacion/powerwashersimuator.html",
+            "precio":"69.99",
+            "categorias": [
+                "simulacion"
+            ]
+        },
+        {
+            "id": "eurostrucksimulator2" ,
+            "titulo": "Euro Truck Simulator 2" ,
+            "año": "2011" ,
+            "imagen":"https://i.pinimg.com/736x/e3/41/31/e341317e548b9e80cef3bc165597c47c.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/90/43/ca/9043ca44e498efa1bf6c24e2df4a0079.jpg",
+            "descripcion": "Euro Truck Simulator 2 es un simulador de conducción en el que los jugadores asumen el rol de un conductor de camión que recorre Europa realizando entregas de mercancías. Desde transportar carga pesada hasta productos delicados, los jugadores deben gestionar tanto su vehículo como su negocio, mejorando su flota, contratando empleados y expandiendo su imperio. El juego destaca por su realismo en los detalles de la conducción, el entorno y la economía, permitiendo a los jugadores explorar ciudades y carreteras europeas mientras disfrutan de una experiencia de simulación profunda. Además, Euro Truck Simulator 2 ofrece una amplia variedad de camiones personalizables y una comunidad activa de mods que enriquece la experiencia.",
+            "detalle":"../../../../detallejuegos/detalle-simulacion/eurostrucksimulator2.html",
+            "precio":"11.75",
+            "categorias": [
+                "simulacion",
+                "mundoabierto"
+            ]
+        },
+        {
+            "id": "houseflipper" ,
+            "titulo": "House Flipper" ,
+            "año": "" ,
+            "imagen":"https://i.pinimg.com/736x/41/d3/75/41d375a92b1df8101196909f60d7ab3b.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/0f/e8/e7/0fe8e7faf436b1f133658457ecda632d.jpg",
+            "descripcion": "House Flipper es un juego de simulación en el que los jugadores asumen el rol de un renovador de viviendas. El objetivo es comprar propiedades en mal estado, renovarlas y luego venderlas para obtener ganancias. Los jugadores pueden realizar una variedad de tareas, desde pintar y limpiar hasta realizar reparaciones más complejas, como cambiar pisos o reparar sistemas eléctricos y de fontanería. Con una mecánica centrada en la personalización y la decoración, los jugadores tienen la libertad de rediseñar las casas a su gusto, transformándolas en espacios modernos y atractivos para los futuros compradores. A medida que avanzan, pueden mejorar sus habilidades, desbloquear nuevas herramientas y enfrentar proyectos de renovación más ambiciosos.",
+            "detalle":"../../../../detallejuegos/detalle-simulacion/houseflipper.html",
+            "precio":"75.99",
+            "categorias": [
+                "simulacion"
+            ]
+        }
+    ],
+    "estrategia":[
+        {
+            "id": "portal2" ,
+            "titulo": "Portal 2" ,
+            "año": "2003" ,
+            "imagen":"https://i.pinimg.com/736x/42/d2/04/42d20445fec9f40cb648d585a318ab58.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/736x/97/3e/0a/973e0a1b5fbf77364efd3a3aff283c6b.jpg",
+            "descripcion": "Portal 2 es un juego de acertijos en primera persona donde el jugador, como Chell, debe escapar de las instalaciones de Aperture Science usando un arma que crea portales. La inteligencia artificial GLaDOS regresa como antagonista, mientras que Wheatley, otro robot, se convierte en un inesperado compañero. A medida que avanza la historia, los jugadores exploran áreas ocultas del complejo y descubren su oscuro pasado. La narrativa mezcla humor, ciencia ficción y crítica tecnológica, todo con mecánicas ingeniosas que desafían la lógica espacial.",
+            "detalle":"../../../../detallejuegos/detalle-estrategia/portal2.html",
+            "precio":"23.00",
+            "categorias": [
+                "estrategia",
+                "aventura"
+            ]
+        },
+        {
+            "id": "civilization" ,
+            "titulo": "Civilization VI" ,
+            "año": "2011" ,
+            "imagen":"https://i.pinimg.com/736x/2b/6b/ea/2b6beaa33fda1853d9559da5e275b7d0.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/1d/09/7d/1d097de27813035a1ce8bd211b6d0a35.jpg",
+            "descripcion": "Civilization VI es un juego de estrategia por turnos en el que el jugador lidera una civilización desde la era antigua hasta el futuro. El objetivo es expandirse, investigar tecnologías, establecer gobiernos, comerciar y conquistar para dominar el mundo por medios militares, culturales o científicos. Cada partida es única, con líderes históricos y mapas generados aleatoriamente. Las decisiones influyen en el rumbo de la historia, permitiendo experimentar el ascenso de un imperio. Con un enfoque profundo y rejugable, Civilization VI ofrece una experiencia estratégica envolvente a lo largo de los siglos.",
+            "detalle":"../../../../detallejuegos/detalle-estrategia/civilization.html",
+            "precio":"",
+            "categorias": [
+                "estrategia"
+            ]
+        },
+        {
+            "id": "factorio" ,
+            "titulo": "Factorio" ,
+            "año": "2004" ,
+            "imagen":"https://i.pinimg.com/736x/51/b2/52/51b252465ca85ffecace8287e1388230.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/a1/54/c4/a154c4fa4f3605cfffe2bc31b10b9cf1.jpg",
+            "descripcion": "Factorio es un juego de simulación y estrategia en el que el jugador debe construir y optimizar fábricas automatizadas en un planeta alienígena. Comenzando con recursos básicos, se desarrollan tecnologías, se crean sistemas logísticos complejos y se defienden las instalaciones de criaturas nativas. El objetivo es lanzar un cohete espacial, lo que requiere una cadena de producción eficiente y bien planificada. La jugabilidad se basa en la automatización, la gestión de recursos y la resolución de problemas técnicos, ofreciendo una experiencia desafiante y adictiva para los amantes de la ingeniería y la eficiencia.",
+            "detalle":"../.../../../detallejuegos/detalle-estrategia/factorio.html",
+            "precio":"70.00",
+            "categorias": [
+                "estrategia",
+                "simulacion"
+            ]
+        },
+        {
+            "id": "intothebreach" ,
+            "titulo": "Into The Breach" ,
+            "año": "2011" ,
+            "imagen":"https://i.pinimg.com/736x/a0/97/95/a09795fa4bdb9d824a354023f5ff1ade.jpg" ,
+            "descripcion": "Into the Breach es un juego de estrategia por turnos donde el jugador controla mecas futuristas para defender ciudades de ataques de criaturas gigantes llamadas Vek. Cada nivel es una batalla táctica en una cuadrícula pequeña, donde los movimientos precisos y la planificación anticipada son clave para minimizar daños. Con una narrativa centrada en viajes temporales, los pilotos pueden retroceder en el tiempo para cambiar el curso de la guerra. El juego combina combates intensos, decisiones estratégicas y gestión de recursos en partidas cortas pero desafiantes, con un estilo visual retro y mecánicas profundas.",
+            "detalle":"../../../../detallejuegos/detalle-estrategia/intothebreach.html",
+            "precio":"31.00",
+            "categorias": [
+                "estrategia"
+            ]
+        },
+        {
+            "id": "babaisyou" ,
+            "titulo": "Baba is You" ,
+            "año": "2003" ,
+            "imagen":"https://i.pinimg.com/736x/65/4f/f6/654ff60ca55904d4b7ccfdb713b74b62.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/b7/6d/a2/b76da2c663dc7653799f1ae8f5812339.jpg",
+            "descripcion": "Baba Is You es un innovador juego de rompecabezas donde las reglas del mundo son bloques de texto que el jugador puede mover y reorganizar. Encarnas a Baba, una criatura sencilla, y puedes cambiar cómo funciona el entorno escribiendo nuevas reglas como “Baba Is Win” o “Wall Is Push”. Cada nivel propone desafíos lógicos que requieren pensamiento lateral y creatividad extrema. Con una estética minimalista y mecánicas únicas, el juego transforma la resolución de acertijos en un ejercicio de manipulación del lenguaje y la lógica, ofreciendo una experiencia original, desafiante y sorprendente.",
+            "detalle":"../../../../detallejuegos/detalle-estrategia/babaisyou.html",
+            "precio":"31.00",
+            "categorias": [
+                "estrategia"
+            ]
+        },
+        {
+            "id": "slaythespire" ,
+            "titulo": "Slay The Spire" ,
+            "año": "2002" ,
+            "imagen":"https://i.pinimg.com/1200x/8e/5f/24/8e5f243272ab783244ce107975614824.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/a3/9c/39/a39c39c72f463091f04580cdbcf50a30.jpg",
+            "descripcion": "Slay the Spire combina la estrategia de los juegos de cartas con la progresión tipo roguelike. El jugador elige entre varios personajes con estilos únicos y construye un mazo de cartas mientras asciende por una torre llena de enemigos, tesoros y decisiones clave. Cada partida es diferente, con cartas, reliquias y rutas aleatorias que obligan a adaptarse constantemente. Las decisiones estratégicas, tanto en combate como en la construcción del mazo, son fundamentales para sobrevivir y derrotar a los jefes de cada nivel. Su jugabilidad profunda y rejugabilidad lo han convertido en un referente del género.",
+            "detalle":"../../../../detallejuegos/detalle-estrategia/slaythespire.html",
+            "precio":"55.00",
+            "categorias": [
+                "estrategia"
+            ]
+        },
+        {
+            "id": "tetris" ,
+            "titulo": "Tetris" ,
+            "año": "1992" ,
+            "imagen":"https://i.pinimg.com/736x/82/5f/4e/825f4e914f5875c31e0ffa55e1dfcfb5.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/736x/8f/d4/11/8fd4119a76687058db1dc1a6c770fd71.jpg",
+            "descripcion": "Tetris es un clásico juego de rompecabezas donde los jugadores deben encajar piezas geométricas llamadas tetriminos que caen desde la parte superior de la pantalla. Cada pieza tiene una forma distinta y puede rotarse para ajustarse al espacio disponible. El objetivo es formar líneas horizontales completas, que desaparecen al ser completadas, permitiendo ganar puntos y evitar que las piezas se acumulen hasta llegar al tope. Con una jugabilidad simple pero adictiva, Tetris ha trascendido generaciones, convirtiéndose en un ícono de la historia de los videojuegos por su diseño atemporal y su desafío mental.",
+            "detalle":"detallejuegos/detalle-estrategia/tetris.html",
+            "precio":"69.00",
+            "categorias": [
+                "estrategia"
+            ]
+        },
+        {
+            "id": "xcom2" ,
+            "titulo": "XCOM 2" ,
+            "año": "2011" ,
+            "imagen":"https://i.pinimg.com/736x/c7/9c/46/c79c46f14bd0e6dd9a28b7450eaf2134.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/736x/17/70/c7/1770c704086938983d7791915b8a6c52.jpg",
+            "descripcion": "XCOM 2 es un juego de estrategia táctica por turnos ambientado en un futuro donde la Tierra ha sido conquistada por una fuerza alienígena. Los jugadores lideran a la resistencia XCOM, un grupo rebelde que lucha por liberar al planeta. Combinando combate estratégico con gestión de recursos y desarrollo tecnológico, el juego exige decisiones difíciles en el campo de batalla y fuera de él. Cada soldado puede ",
+            "detalle":"../../../../detallejuegos/detalle-estrategia/xcom2.html",
+            "precio":"133.95",
+            "categorias": [
+                "estrategia"
+            ]
+        },
+        {
+            "id": "minimetro" ,
+            "titulo": "Mini Metro" ,
+            "año": "2019" ,
+            "imagen":"https://i.pinimg.com/736x/54/e8/5b/54e85b45486dcb495b02944162fe44da.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/736x/c1/8f/55/c18f55c2aed4e733fd31d1da9d82e389.jpg",
+            "descripcion": "Mini Metro es un juego de simulación y estrategia minimalista en el que el jugador diseña y gestiona una red de metro para una ciudad en crecimiento. A medida que aparecen nuevas estaciones, el jugador debe trazar líneas eficientes que conecten los puntos y transporten a los pasajeros de forma rápida. El ritmo se intensifica con el tiempo, exigiendo planificación y adaptabilidad para evitar la congestión. Con un estilo visual simple pero elegante, el juego ofrece una experiencia relajante y desafiante, donde cada decisión puede marcar la diferencia entre un sistema fluido o el colapso total del transporte.",
+            "detalle":"../../../../detallejuegos/detalle-estrategia/minimetro.html",
+            "precio":"22.00",
+            "categorias": [
+                "estrategia",
+                "simulacion"
+            ]
+        },
+        {
+            "id": "thetalosprinciple" ,
+            "titulo": "The Talos Principle" ,
+            "año": "2020" ,
+            "imagen":"https://i.pinimg.com/736x/fb/ab/20/fbab208d45bd60c6a4a33f1b583c7478.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/c3/fd/3a/c3fd3af8a70816827740fa193a6f9cec.jpg",
+            "descripcion": "HThe Talos Principle es un juego de puzles en primera persona que mezcla desafíos lógicos con profundas cuestiones filosóficas. El jugador asume el papel de un androide guiado por una voz divina llamada Elohim, que lo invita a resolver enigmas en ruinas antiguas llenas de tecnología avanzada. A medida que avanza, el jugador descubre textos y terminales que plantean preguntas sobre la conciencia, la existencia y la libertad. Con una narrativa envolvente y un diseño inteligente de niveles, el juego invita a reflexionar sobre qué significa ser humano en un mundo dominado por la inteligencia artificial.",
+            "detalle":"../../../../detallejuegos/detalle-estrategia/thetalosprinciple.html",
+            "precio":"69.00",
+            "categorias": [
+                "estrategia",
+                "aventura"
+            ]
+        }
+    ],
+    "mundoabierto":[
+        {
+            "id": "gtav" ,
+            "titulo": "Grand Theft Auto V" ,
+            "año": "2013" ,
+            "imagen":"https://i.pinimg.com/736x/f9/12/f7/f912f7125d3ab1fabdd965e6dc479093.jpg" ,
+            "imagenBanner":"https://img.goodfon.com/original/1920x1080/a/a5/gta-gta-v-gta-5-rockstar-game-5652.jpg",
+            "descripcion": "Grand Theft Auto V (GTA V) es un juego de acción y mundo abierto que sigue la historia de tres criminales muy diferentes: Michael, un ex ladrón de bancos retirado; Franklin, un joven ambicioso del barrio; y Trevor, un violento y caótico fugitivo. Ambientado en la ciudad ficticia de Los Santos, el juego combina sus vidas mientras realizan atracos arriesgados, enfrentan traiciones y luchan contra enemigos del bajo mundo y del gobierno. La historia mezcla crimen, humor negro y crítica social, todo dentro de un mundo abierto lleno de actividades y libertad para explorar.",
+            "detalle":"../detallejuegos/detalle-mundoabierto/gtav.html",
+            "precio":"172.00",
+            "categorias": [
+                "accion",
+                "aventura",
+                "mundoabierto",
+                "popular"
+            ]
+        },
+        {
+            "id": "gtasa" ,
+            "titulo": "Grand Theft Auto San Andreas" ,
+            "año": "2004" ,
+            "imagen":"https://i.pinimg.com/736x/57/5b/2e/575b2e4fd17a2221649700af93b8895e.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/b1/e9/00/b1e900b7eedae669743e4f9bd1e952ee.jpg",
+            "descripcion": "CJ Johnson, quien regresa a su ciudad natal, Los Santos, después de la muerte de su madre. A lo largo del juego, CJ se ve involucrado en una serie de eventos que incluyen la lucha por recuperar el control de su barrio, enfrentarse a bandas rivales y desmantelar una red de corrupción dentro de la policía. Ambientado en el estado ficticio de San Andreas, que incluye tres ciudades principales, el juego combina acción, crimen, y una narrativa profunda que explora temas de familia, lealtad y poder. Además, ofrece un mundo abierto lleno de misiones, actividades y una gran libertad para explorar.",
+            "detalle":"../../../../detallejuegos/detalle-mundoabierto/gtasa.html",
+            "precio":"23.00",
+            "categorias": [
+                "accion",
+                "aventura",
+                "mundoabierto",
+                "popular"
+            ]
+        },
+        {
+            "id": "minecraft" ,
+            "titulo": "Minecraft" ,
+            "año": "2009" ,
+            "imagen":"https://i.pinimg.com/736x/c8/cc/44/c8cc44624d8cf36ecf08f5fcafad57b4.jpg" ,
+            "imagenBanner":"https://wallpapers.com/images/high/minecraft-logo-on-a-basic-block-uxrhdk9k1m8tlilm.webp",
+            "descripcion": "Minecraft es un juego de mundo abierto donde los jugadores pueden explorar, construir, recolectar recursos y sobrevivir en un entorno generado aleatoriamente. Sin una historia lineal, ofrece libertad total para crear estructuras, combatir criaturas y descubrir biomas. Su estilo visual en bloques y su jugabilidad creativa lo convierten en una experiencia única para jugadores de todas las edades.",
+            "detalle": "../../../../detallejuegos/detalle-mundoabierto/minecraft.html",
+            "precio":"70.00",
+            "categorias": [
+                "accion",
+                "aventura",
+                "mundoabierto",
+                "simulacion",
+                "popular"
+            ]
+        },
+        {
+            "id": "tlofzbreathofthewild" ,
+            "titulo": "The Legend of Zelda: Breath of the wild" ,
+            "año": "2017" ,
+            "imagen":"https://i.pinimg.com/1200x/31/59/2d/31592dd53c1d4976a8d5cadfd3fd07c5.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/0d/79/d5/0d79d570c5f5042f1ef91869589a065e.jpg",
+            "descripcion": "The Legend of Zelda: Breath of the Wild presenta un vasto mundo abierto donde el héroe Link despierta tras cien años de letargo para enfrentar al mal ancestral conocido como Ganon. Sin recuerdos de su pasado, debe explorar el reino de Hyrule, escalar montañas, cruzar bosques y resolversantuarios para recuperar su fuerza y detener la destrucción. La historia mezcla libertad total de exploración con una narrativa épica sobre valentía, legado y redención, ofreciendo una experiencia envolvente que reinventa la fórmula clásica de la saga Zelda.",
+            "detalle":"../../../../detallejuegos/detalle-mundoabierto/tlofzbreathofthewild.html",
+            "precio":"200.00",
+            "categorias": [
+                "accion",
+                "aventura",
+                "mundoabierto"
+            ]
+        },
+        {
+            "id": "justcause4" ,
+            "titulo": "Just Cause 4" ,
+            "año": "2009" ,
+            "imagen":"https://i.pinimg.com/736x/b5/a8/13/b5a81352a32f59e86029a2a1ae0c5326.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/4d/ac/01/4dac015f198c8977dd667ed439183eb9.jpg",
+            "descripcion": "Just Cause 4 sigue a Rico Rodríguez mientras viaja a Solís, una nación ficticia de Sudamérica, para descubrir la verdad detrás de la muerte de su padre y enfrentarse a una organización militar conocida como la Mano Negra. Equipado con su característico gancho, paracaídas y traje aéreo, Rico desata el caos en un mundo abierto lleno de explosiones, climas extremos y acción desenfrenada. La historia gira en torno a conspiraciones, tecnología climática y rebelión, combinando una narrativa sencilla con mecánicas de destrucción y libertad total para causar estragos.",
+            "detalle":"../../../../detallejuegos/detalle-mundoabierto/justcause4.html",
+            "precio":"159.00",
+            "categorias": [
+                "accion",
+                "aventura",
+                "mundoabierto"
+            ]
+        },
+        {
+            "id": "terraria" ,
+            "titulo": "Terraria" ,
+            "año": "2013" ,
+            "imagen":"https://i.pinimg.com/736x/07/7d/53/077d53471564546215aaadcf7e89093f.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/f7/28/28/f72828e7c9008f55363e2322e286cff5.jpg",
+            "descripcion": "Terraria es un juego de aventuras y supervivencia en 2D que combina exploración, construcción, combate y recolección de recursos en un mundo generado aleatoriamente. El jugador comienza con herramientas básicas y debe excavar, construir refugios, enfrentarse a monstruos y jefes poderosos, y descubrir secretos ocultos bajo tierra. Con un enfoque en la creatividad y el progreso, Terraria permite personalizar el entorno, fabricar objetos y mejorar al personaje a lo largo de la partida. Su estilo pixel art y su profundidad jugable lo han convertido en un clásico del género sandbox.",
+            "detalle":"../../../../detallejuegos/detalle-mundoabierto/terraria.html",
+            "precio":"23.00",
+            "categorias": [
+                "accion",
+                "aventura",
+                "mundoabierto"
+            ]
+        },
+        {
+            "id": "nomanssky" ,
+            "titulo": "No Mans Sky" ,
+            "año": "" ,
+            "imagen":"https://i.pinimg.com/736x/b8/81/dd/b881ddb7451b4fc4070863e6202b58e5.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/0e/04/79/0e047945d63152dc7e021570e9f3e19a.jpg",
+            "descripcion": "No Man's Sky es un juego de exploración y supervivencia espacial en un universo generado proceduralmente con miles de millones de planetas únicos. El jugador asume el rol de un viajero interestelar que puede explorar mundos, recolectar recursos, comerciar, construir bases y descubrir formas de vida alienígena. La historia gira en torno a desentrañar los misterios del universo y del ente conocido como Atlas. Con un enfoque en la libertad total, el juego ofrece una experiencia en constante evolución gracias a sus expansiones, que han añadido multijugador, mejoras gráficas y nuevas mecánicas de juego.",
+            "detalle":"../../../../detallejuegos/detalle-mundoabierto/nomanssky.html",
+            "precio":"59.99",
+            "categorias": [
+                "accion",
+                "aventura",
+                "mundoabierto",
+                "simulacion"
+            ]
+        },
+        {
+            "id": "arksurivalevolved" ,
+            "titulo": "Ark: Survival Evolved" ,
+            "año": "2014" ,
+            "imagen":"https://i.pinimg.com/736x/34/1b/d1/341bd153d1a6d1f72b16296a8ee570da.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/01/35/af/0135af91c5dddb109bdc65178287a9fb.jpg",
+            "descripcion": " ARK: Survival Evolved es un juego de supervivencia en mundo abierto donde los jugadores despiertan en una misteriosa isla habitada por dinosaurios y otras criaturas prehistóricas. Para sobrevivir, deben recolectar recursos, construir refugios, fabricar herramientas, domesticar animales y defenderse de amenazas tanto naturales como humanas. El juego combina acción, exploración y estrategia, permitiendo formar tribus con otros jugadores, conquistar territorios y descubrir los secretos detrás del origen de la isla y su tecnología. La narrativa se desarrolla a través de notas y artefactos repartidos por el mundo.",
+            "detalle":"../../../../detallejuegos/detalle-mundoabierto/armsurvivalevolved.html",
+            "precio":"33.50",
+            "categorias": [
+                "accion",
+                "aventura",
+                "mundoabierto",
+                "simulacion"
+            ]
+        },
+        {
+            "id": "watchdog2" ,
+            "titulo": "Watch Dogs 2" ,
+            "año": "" ,
+            "imagen":"https://i.pinimg.com/736x/71/c2/6f/71c26f9f38ca627583cbece4a1a2e0e1.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/1200x/a4/e1/41/a4e1413c84c6cb42322027aefd5d8e5b.jpg",
+            "descripcion": "Watch Dogs 2 sigue a Marcus Holloway, un joven hacker de San Francisco que se une al grupo hacktivista DedSec para exponer la corrupción y el abuso de poder que se esconden tras el sistema operativo ctOS 2.0, utilizado para vigilar y controlar a la población. A través de misiones de infiltración, sabotaje y manipulación digital, Marcus enfrenta a grandes corporaciones y agencias gubernamentales. La historia combina humor, crítica social y tecnología,en un mundo abierto dinámico donde el jugador puede usar herramientas de hackeo para alterar el entorno y cumplir sus objetivos",
+            "detalle":"../../../../detallejuegos/detalle-mundoabierto/watchdog2.html",
+            "precio":"29.99",
+            "categorias": [
+                "accion",
+                "aventura",
+                "mundoabierto"
+            ]
+        },
+        {
+            "id": "eldenring" ,
+            "titulo": "Elden Ring" ,
+            "año": "2019" ,
+            "imagen":"https://i.pinimg.com/736x/e8/db/1d/e8db1d01cfa8c52561c2631f48321cc7.jpg" ,
+            "imagenBanner":"https://i.pinimg.com/736x/90/5b/e1/905be11689eaccaf15ce087cbfe51ca6.jpg",
+            "descripcion": "Elden Ring se desarrolla en las Tierras Intermedias, un mundo vasto y fragmentado tras la destrucción del Círculo de Elden y la desaparición de la Reina Márika. El jugador encarna a un Sinluz, un exiliado que regresa para reclamar su destino y convertirse en el Señor del Círculo. A lo largo del viaje, debe enfrentarse a semidioses corrompidos, explorar reinos llenos de secretos, y descubrir el misterio detrás del poder del Círculo. Con una narrativa críptica y profunda, el juego mezcla fantasía oscura, libertad de exploración y combates desafiantes en un mundo abierto interconectado.",
+            "detalle":"../../../../detallejuegos/detalle-mundoabierto/eldenring.html",
+            "precio":"$59.99",
+            "categorias": [
+                "accion",
+                "aventura",
+                "mundoabierto",
+                "popular"
+            ]
+        }
+    ]
+}

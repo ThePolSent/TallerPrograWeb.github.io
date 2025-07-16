@@ -1,0 +1,381 @@
+/* -------------------- RESPONSIVE GENERAL -------------------- */
+
+/* ---------- HEADER ---------- */
+@media (max-width: 768px) {
+    header {
+        height: 64px;
+        padding: 8px 16px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #111;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    body {
+        padding-top: 65px;
+    }
+
+    header .logo h1 img {
+        margin-left: 0 !important;
+        width: 30px;
+    }
+
+    header .logo h1 {
+        font-size: 13px;
+        margin-left: 20px;
+    }
+
+    .actions {
+        gap: 8px;
+        margin-right: 8px;
+    }
+
+    .btn-menu {
+        font-size: 22px;
+        top: 15px;
+        left: 10px;
+    }
+}
+
+/* ---------- MODAL GENERAL ---------- */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 92%;
+        margin: 24px auto;
+        padding: 12px;
+        border-radius: 10px;
+        height: auto;
+    }
+
+    .modal-body {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .modal-body img {
+        max-width: 90%;
+        max-height: 140px;
+        object-fit: contain;
+        border-radius: 6px;
+    }
+
+    .description {
+        padding: 10px;
+        font-size: 0.8em;
+    }
+
+    .btn-details {
+        width: 90%;
+        font-size: 0.75em;
+        margin-top: 10px;
+    }
+
+    .btn-group-top {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .btn-cart,
+    .btn-wishlist {
+        width: 100%;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .modal-content {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .modal-body img {
+        max-height: 120px;
+    }
+
+    .description {
+        font-size: 0.75em;
+    }
+
+    .btn-details {
+        font-size: 0.7em;
+        padding: 6px 10px;
+    }
+}
+
+/* ---------- CARRUSEL GENERAL ---------- */
+@media (max-width: 768px) {
+    .carrusel-wrapper {
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        padding: 10px 0;
+    }
+
+    .carrusel-track {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 10px;
+        padding: 0 10px;
+        min-width: max-content;
+    }
+
+    .videojuego {
+        flex: 0 0 45%;
+        max-width: 180px;
+        scroll-snap-align: start;
+    }
+
+    .videojuego .game-card {
+        width: 100%;
+        height: 180px;
+        border-radius: 8px;
+        background: #222;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .videojuego .game-card img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        background-color: #000;
+    }
+
+    .btn-izq,
+    .btn-der,
+    .hover-card {
+        display: none !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .videojuego {
+        flex: 0 0 48%;
+        max-width: 160px;
+    }
+
+    .videojuego .game-card {
+        height: 160px;
+    }
+}
+
+/* ---------- CARRUSEL POPULARES ---------- */
+@media (max-width: 768px) {
+    .videojuego-popular .game-card {
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .videojuego-popular .game-card img,
+    .videojuego-popular .image-banner {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    #VideojuegosPopulares h2 {
+        font-size: 1.4em;
+        margin-bottom: 12px;
+    }
+
+    .Contenedor-videojuegos-populares {
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+    }
+
+    .videojuego-popular .hover-card {
+        display: none !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .videojuego-popular .image-banner {
+        height: 160px;
+    }
+
+    #VideojuegosPopulares h2 {
+        font-size: 1.2em;
+    }
+
+    .Contenedor-videojuegos-populares {
+        gap: 12px;
+    }
+}
+
+/* ---------- CATÁLOGO ACCIÓN ---------- */
+@media (max-width: 600px) {
+    .steam-card-info h3 {
+        font-size: 1em;
+    }
+
+    .titulo-categoria {
+        font-size: 1.6em;
+    }
+}
+
+/* ---------- CARRITO ---------- */
+@media (max-width: 992px) {
+    .carrito-contenedor {
+        flex-direction: column;
+    }
+
+    .carrito-resumen {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carrito-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .carrito-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .carrito-item button {
+        width: 100%;
+        text-align: center;
+    }
+
+    #btn-comprar {
+        width: 100%;
+    }
+
+    .carrito-main h2 {
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .carrito-main {
+        padding: 80px 15px 30px;
+    }
+
+    .carrito-info h4 {
+        font-size: 0.95em;
+    }
+
+    .carrito-info .precio {
+        font-size: 0.85em;
+    }
+
+    .carrito-info .descripcion {
+        font-size: 0.8em;
+    }
+
+    #btn-comprar {
+        font-size: 0.9em;
+        padding: 10px 20px;
+    }
+}
+
+/* ---------- DETALLE JUEGO ---------- */
+@media (max-width: 992px) {
+    .detalle-multimedia {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .detalle-video {
+        width: 100%;
+    }
+}
+
+/* ---------- LISTA DESEADOS ---------- */
+@media (max-width: 1200px) {
+    .wishlist-lista {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .wishlist-lista {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .wishlist-lista {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .wishlist-lista .game-card {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wishlist-lista {
+        grid-template-columns: 1fr;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .wishlist-lista .game-card {
+        height: 250px;
+        max-width: 100%;
+    }
+}
+/* ---------- FOOTER RESPONSIVE ---------- */
+@media (max-width: 768px) {
+    footer {
+        font-size: 0.7rem;
+        padding: 16px 8px;
+    }
+
+    footer nav a {
+        font-size: 0.7rem;
+        margin: 0 6px;
+    }
+
+    footer .metodos-pago {
+        gap: 12px;
+    }
+
+    footer .metodos-pago img {
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        font-size: 0.65rem;
+        padding: 14px 6px;
+    }
+
+    footer nav a {
+        font-size: 0.65rem;
+    }
+
+    footer .metodos-pago {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    footer .metodos-pago img {
+        height: 26px;
+    }
+}
+

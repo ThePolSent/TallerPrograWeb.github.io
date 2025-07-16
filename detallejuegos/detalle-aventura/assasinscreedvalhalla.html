@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Playsent | Videojuegos y más</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../css/demas.css"/>
+    <link rel="stylesheet" href="../../../css/header.css"/>
+    <link rel="stylesheet" href="../../../css/footer.css"/>
+    <link rel="stylesheet" href="../../../css/modal.css"/>
+    <link rel="stylesheet" href="../../../css/catalogo.css"/>
+    <link rel="stylesheet" href="../../../css/responsive.css"/>
+    <link rel="stylesheet" href="../../../css/detalle.css"/>
+    <link rel="stylesheet" href="../../../css/darkmode.css"/>
+    <link rel="stylesheet" href="../../../css/usuario.css"/>
+</head>
+<body>
+<!-- Cabecera -->
+    <header>
+        <div class="logo">
+            <h1>
+            <img src="../../../contenido/imagenes/logo/logojoystick.png" alt="Logo de PlaySent">
+            <a href="../../../index.html">PlaySent</a>
+            </h1>
+        </div>
+
+        <!-- Botón Menú Hamburguesa (Nuevo) -->
+        <button id="menu-toggle" class="btn-menu" aria-label="Abrir menú">
+            <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+        <!-- Contenedor de acciones -->
+        <div class="actions">
+            <!-- Botón Audio -->
+            <button id="audio-toggle" class="btn-audio">
+                <ion-icon id="audio-icon" name="volume-mute-outline"></ion-icon>
+            </button>
+            <audio id="audio-player" src="../../../contenido/audio/audio-principal/principal.mp3"></audio>
+
+            <!-- Botón Modo Oscuro -->
+            <button id="theme-toggle" class="btn-theme">
+                <ion-icon id="theme-icon" name="moon-outline"></ion-icon>
+            </button>
+
+            <!-- Botón Iniciar Sesión / Registro -->
+            <a href="javascript:redirectToLogin()" id="login-icon">
+                <ion-icon name="person-circle-outline"></ion-icon>
+            </a>
+
+            <!-- Menú usuario (dentro del mismo contenedor) -->
+            <div class="user-menu has-submenu" id="userMenu" style="display: none;">
+                <button id="userButton">
+                    <ion-icon name="person-circle-outline"></ion-icon>
+                </button>
+                <div class="submenu">
+                    <p id="usernameDisplay"></p>
+                    <button id="logoutButton">Cerrar sesión</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sidebar deslizable -->
+    <nav id="sidebar" class="sidebar">
+        <ul>
+            <li class="collapsible-section">
+            <button class="collapsible-btn solo-icono" onclick="location.href='../../../carrito.html'">
+                <span><ion-icon name="cart-outline"></ion-icon> Carrito</span>
+            </button>
+            </li>
+
+            <li class="collapsible-section">
+            <button class="collapsible-btn solo-icono" onclick="location.href='../../../listadeseados.html'">
+                <span><ion-icon name="heart-outline"></ion-icon> Wishlist</span>
+            </button>
+            </li>
+
+            <li class="collapsible-section">
+            <button class="collapsible-btn">
+                Categorías <ion-icon name="chevron-down-outline"></ion-icon>
+            </button>
+            <div class="collapsible-content">
+                <a href="../../../../categorias/accion.html"><ion-icon name="flash-outline"></ion-icon> Acción</a>
+                <a href="../../../../categorias/aventura.html"><ion-icon name="compass-outline"></ion-icon> Aventura</a>
+                <a href="../../../../categorias/simulacion.html"><ion-icon name="hardware-chip-outline"></ion-icon> Simulación</a>
+                <a href="../../../../categorias/estrategia.html"><ion-icon name="analytics-outline"></ion-icon> Estrategia</a>
+                <a href="../../../../categorias/mundoabierto.html"><ion-icon name="earth-outline"></ion-icon> Mundo Abierto</a>
+            </div>
+            </li>
+            <li class="collapsible-section">
+            <button class="collapsible-btn">
+                Redes Sociales <ion-icon name="chevron-down-outline"></ion-icon>
+            </button>
+            <div class="collapsible-content">
+                <a href="https://twitter.com"><ion-icon name="logo-twitter"></ion-icon> Twitter</a>
+                <a href="https://facebook.com"><ion-icon name="logo-facebook"></ion-icon> Facebook</a>
+                <a href="https://instagram.com"><ion-icon name="logo-instagram"></ion-icon> Instagram</a>
+            </div>
+            </li>
+        </ul>
+    </nav>
+    <!-- Cuerpo -->
+    <main class="detalle-main">
+        <section class="detalle-contenido">
+            <h2>ASSASSIN'S CREED VALHALLA</h2>
+
+            <!-- Imagen y Video -->
+            <div class="detalle-multimedia">
+                <img src="https://i.pinimg.com/736x/88/03/e2/8803e2090ffd416e3e19abc1fcab7eda.jpg" alt="Assassin's Creed Valhalla" class="detalle-img">
+                <iframe class="detalle-video" src="https://www.youtube.com/embed/ssrNcwxALS4" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <!-- Descripción -->
+            <section class="detalle-descripcion">
+                <p>
+                    <strong>Assassin's Creed Valhalla</strong> te pone en la piel de Eivor, un guerrero vikingo en busca de gloria. Ambientado durante la invasión vikinga de Inglaterra, exploras un vasto mundo abierto lleno de batallas épicas, alianzas políticas y secretos del credo de los Asesinos. Con un enfoque más centrado en el rol y personalización del personaje, Valhalla ofrece una experiencia brutal y envolvente en la era vikinga.
+                </p>
+            </section>
+
+            <!-- Botones de acción -->
+            <section class="detalle-acciones">
+                <button class="btn-deseado">❤️ Añadir a Wishlist</button>
+                <button class="btn-carrito">🛒 Añadir al Carrito</button>
+            </section>
+
+            <!-- Ficha Técnica -->
+            <section class="detalle-ficha">
+                <h3>Ficha Técnica</h3>
+                <ul>
+                    <li><strong>Fecha de lanzamiento:</strong> 10 de noviembre de 2020</li>
+                    <li><strong>Desarrollador:</strong> Ubisoft Montreal</li>
+                    <li><strong>Editor:</strong> Ubisoft</li>
+                    <li><strong>Género:</strong> Acción, Aventura, RPG</li>
+                    <li><strong>Plataformas:</strong> PS4, PS5, Xbox One, Xbox Series X|S, PC</li>
+                </ul>
+            </section>
+
+            <!-- Requisitos -->
+            <section class="detalle-requisitos">
+                <h3>Requisitos</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Requisitos</th>
+                            <th>Mínimo</th>
+                            <th>Recomendado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sistema</td>
+                            <td>Windows 10 64-bit</td>
+                            <td>Windows 10 64-bit</td>
+                        </tr>
+                        <tr>
+                            <td>Procesador</td>
+                            <td>Ryzen 3 1200 / Intel i5-4460</td>
+                            <td>Ryzen 5 1600 / Intel i7-6700</td>
+                        </tr>
+                        <tr>
+                            <td>Memoria</td>
+                            <td>8 GB RAM</td>
+                            <td>16 GB RAM</td>
+                        </tr>
+                        <tr>
+                            <td>Gráficos</td>
+                            <td>RX 570 / GTX 960</td>
+                            <td>RX 5700XT / GTX 1080</td>
+                        </tr>
+                        <tr>
+                            <td>Almacenamiento</td>
+                            <td colspan="2">50 GB disponibles</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Categorías -->
+            <section class="detalle-categorias">
+                <h3>Categorías</h3>
+                <div class="categoria-lista">
+                    <a href="../../../categorias/accion.html" class="categoria-tag">Acción</a>
+                    <a href="../../../categorias/aventura.html" class="categoria-tag">Aventura</a>
+                    <a href="../../../categorias/rpg.html" class="categoria-tag">RPG</a>
+                    <a href="../../../categorias/historia.html" class="categoria-tag">Histórico</a>
+                    <a href="../../../categorias/mundoabierto.html" class="categoria-tag">Mundo Abierto</a>
+                </div>
+            </section>
+        </section>
+    </main>
+
+
+    
+    <!-- Footer -->
+    <footer class="footer-principal">
+        <div class="footer-contenido">
+            <p>&copy; PlaySent. Todos los derechos reservados.</p>
+
+            <div class="footer-links">
+                <a href="#">Política de Privacidad</a>
+                <span>|</span>
+                <a href="#">Términos y Condiciones</a>
+            </div>
+
+            <div class="metodos-pago">
+                <img src="/contenido/imagenes/footer/yape.png" alt="Yape" title="Yape">
+                <img src="/contenido/imagenes/footer/bcp.png" alt="BCP" title="BCP">
+                <img src="/contenido/imagenes/footer/visa.png" alt="Visa" title="Visa">
+                <img src="/contenido/imagenes/footer/paypal.png" alt="PayPal" title="PayPal">
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/js/main.js"></script>
+    <script type="module" src="/js/detalle.js"></script>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
